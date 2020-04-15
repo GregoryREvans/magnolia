@@ -1,0 +1,77 @@
+# hello world, this is my first travis file
+sudo: false
+
+language: python
+
+# xenial necessary for "3.8-dev"
+# dist: xenial # this test latex
+
+python:
+    - 3.6
+    # - 3.7
+    #- "3.8-dev"
+
+before_install:
+    # name working directory:
+    - LOCATION=`pwd`
+
+    # alias package:
+    - PACKAGE=`pwd`/magnolia
+    - export PYTHONPATH=$PACKAGE:$PYTHONPATH
+
+    # upgrade pip:
+    - pip install --upgrade pip
+
+    # install lilypond:
+    - LILYPOND=/tmp/lilypond
+    - LILYPOND_URL=http://lilypond.org/download/binaries/linux-64/
+    - LILYPOND_SOURCE=lilypond-2.19.84-1.linux-64.sh
+    - wget -q -O $LILYPOND $LILYPOND_URL/$LILYPOND_SOURCE
+    - sh $LILYPOND --batch
+
+    # clone & install abjad dev branch:
+    - ABJAD=/tmp/abjad
+    - git clone -b master https://github.com/Abjad/abjad.git $ABJAD
+    - pip install -e $ABJAD
+    - export MYPYPATH=$ABJAD
+    - export PATH=$PATH:$ABJAD/abjad/scr
+
+    # clone & install rmakers:
+    - RMAKERS=/tmp/abjad-ext-rmakers
+    - git clone https://github.com/Abjad/abjad-ext-rmakers.git $RMAKERS
+    - cd $RMAKERS
+    - pip install -e $RMAKERS
+    - cd $LOCATION
+    - export MYPYPATH=$MYPYPATH:$RMAKERS
+
+    # clone & install evans:
+    - EVANS=/tmp/evans
+    - git clone https://github.com/GregoryREvans/evans.git $EVANS
+    - export PYTHONPATH=$EVANS/:$PYTHONPATH
+
+    # clone & install baca:
+    - BACA=/tmp/baca
+    - git clone https://github.com/trevorbaca/baca.git $BACA
+    - export PYTHONPATH=$BACA/:$PYTHONPATH
+
+    # clone & install tsmakers:
+    - TSMAKERS=/tmp/tsmakers
+    - git clone https://github.com/ivanalexandermoscotta/tsmakers.git $TSMAKERS
+    - export PYTHONPATH=$TSMAKERS:$PYTHONPATH
+
+    # log setup:
+    - echo $PYTHONPATH
+
+install:
+    - pip install coverage
+    # - pip install -e .
+
+script:
+    - coverage run -a `which py.test` -rf $PACKAGE
+
+after_success:
+    - pip install --quiet coveralls
+    - coveralls
+
+notifications:
+    email: false
