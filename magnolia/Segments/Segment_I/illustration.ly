@@ -1199,7 +1199,6 @@
                             \line { \hspace #0.75 April 2020 }
                         }
                     }
-                    \once \override BarLine.stencil = ##t
 
                     \once \override MultiMeasureRest.color = #white            %! applying ending skips
                     R1 * 1/16

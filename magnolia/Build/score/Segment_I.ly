@@ -1,4 +1,4 @@
-
+    
     \context Score = "magnolia Score"
     <<
 
@@ -1190,7 +1190,7 @@
                     ^ \markup {                                                %! applying ending skips
                         \musicglyph                                            %! applying ending skips
                             #"scripts.ushortfermata"                           %! applying ending skips
-                        }                                           %! applying ending skips
+                        }                                                      %! applying ending skips
                     \bar "|."
                     \stopStaff                                                 %! applying ending skips
 
