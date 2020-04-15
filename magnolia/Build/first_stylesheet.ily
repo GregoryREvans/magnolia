@@ -11,7 +11,7 @@
 	tagline = ##f
 	breakbefore = ##t
 	dedication = \markup \override #'(font-name . "STIXGeneral") \fontsize #7 \center-column {"to Dennis Kwok"}
-	title = \markup \override #'(font-name . "STIXGeneral") \fontsize #14.5 \center-column {"Frost on Magnolia Petals"}
+	title = \markup \override #'(font-name . "STIXGeneral") \fontsize #13.5 \center-column {"Frost on Magnolia Petals"}
 	subtitle = \markup \override #'(font-name . "STIXGeneral") \fontsize #6 \center-column {"for alto saxophone alone"}
 	composer = \markup \override #'(font-name . "STIXGeneral") \fontsize #3 {"Gregory Rowland Evans" \override #'(font-name . "STIXGeneral") "(*1995)"}
 }
@@ -66,10 +66,10 @@
         \override TimeSignature.break-align-symbol = ##f
         \override TimeSignature.break-visibility = #end-of-line-invisible
         \override TimeSignature.font-size = #7
+		\override TimeSignature.stencil = ##f %
 		%{ \override TimeSignature.font-size = #2 %}
 		\override TimeSignature.font-name = "STIXGeneral"
         \override TimeSignature.self-alignment-X = #center
-		%\override TimeSignature.stencil = ##f
 		\override TimeSignature.whiteout-style = #'outline
 		\override TimeSignature.whiteout = ##t
         \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 9) (minimum-distance . 9) (padding . 5) (stretchability . 0))
@@ -85,9 +85,12 @@
 		\override BarLine.bar-extent = #'(-2 . 2)
 		\override BarLine.hair-thickness = #0.9
 		\override BarLine.thick-thickness = #8
-		%\override BarLine.stencil = ##f
+		\override BarLine.stencil = ##f %
         \override Beam.breakable = ##t
 		\override Beam.concaveness = #10000
+		\override Beam.stencil = ##f %
+		\override Dots.stencil = ##f %
+		\override Flag.stencil = ##f %
 		%{ \override Beam.beam-thickness = #0.6 %}
         %{ \override Beam.length-fraction = #1.3 %}
 		\override Clef.whiteout-style = #'outline
@@ -131,8 +134,11 @@
 		\override TupletBracket.direction = #down
 		\override TupletNumber.font-size = #1
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
+		\override TupletBracket.stencil = ##f %
+		\override TupletNumber.stencil = ##f %
+		\override Stem.transparent = ##t %
 		autoBeaming = ##f
-		proportionalNotationDuration = #(ly:make-moment 1 20)
+		proportionalNotationDuration = #(ly:make-moment 1 30)
         tupletFullLength = ##t
     }
 	\context {
