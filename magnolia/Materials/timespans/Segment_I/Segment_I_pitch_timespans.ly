@@ -35,7 +35,7 @@
                                                 0
                                                 1
                             \translate
-                                #'(5.375 . 1)
+                                #'(3.916666666666667 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -44,7 +44,7 @@
                                                 5
                                                 4
                             \translate
-                                #'(8.875 . 1)
+                                #'(6.25 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -53,7 +53,7 @@
                                                 9
                                                 4
                             \translate
-                                #'(11.5 . 1)
+                                #'(8.0 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -62,7 +62,7 @@
                                                 3
                                                 1
                             \translate
-                                #'(13.25 . 1)
+                                #'(9.166666666666668 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -71,7 +71,7 @@
                                                 7
                                                 2
                             \translate
-                                #'(14.125 . 1)
+                                #'(9.75 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -80,7 +80,7 @@
                                                 15
                                                 4
                             \translate
-                                #'(15.875 . 1)
+                                #'(10.916666666666668 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -89,7 +89,7 @@
                                                 17
                                                 4
                             \translate
-                                #'(18.5 . 1)
+                                #'(12.666666666666668 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -98,7 +98,7 @@
                                                 5
                                                 1
                             \translate
-                                #'(22.0 . 1)
+                                #'(15.0 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -107,7 +107,7 @@
                                                 6
                                                 1
                             \translate
-                                #'(26.375 . 1)
+                                #'(17.916666666666668 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -116,7 +116,7 @@
                                                 29
                                                 4
                             \translate
-                                #'(29.875 . 1)
+                                #'(20.25 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -125,7 +125,7 @@
                                                 33
                                                 4
                             \translate
-                                #'(32.5 . 1)
+                                #'(22.0 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -134,7 +134,7 @@
                                                 9
                                                 1
                             \translate
-                                #'(34.25 . 1)
+                                #'(23.166666666666668 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -143,7 +143,7 @@
                                                 19
                                                 2
                             \translate
-                                #'(35.125 . 1)
+                                #'(23.75 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -152,7 +152,7 @@
                                                 39
                                                 4
                             \translate
-                                #'(36.875 . 1)
+                                #'(24.916666666666668 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -161,7 +161,7 @@
                                                 41
                                                 4
                             \translate
-                                #'(39.5 . 1)
+                                #'(26.666666666666668 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -170,7 +170,7 @@
                                                 11
                                                 1
                             \translate
-                                #'(43.0 . 1)
+                                #'(29.0 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -179,7 +179,7 @@
                                                 12
                                                 1
                             \translate
-                                #'(47.375 . 1)
+                                #'(31.916666666666668 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -188,7 +188,7 @@
                                                 53
                                                 4
                             \translate
-                                #'(50.875 . 1)
+                                #'(34.25 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -197,7 +197,7 @@
                                                 57
                                                 4
                             \translate
-                                #'(53.5 . 1)
+                                #'(36.0 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -206,7 +206,7 @@
                                                 15
                                                 1
                             \translate
-                                #'(55.25 . 1)
+                                #'(37.16666666666667 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -215,7 +215,7 @@
                                                 31
                                                 2
                             \translate
-                                #'(56.125 . 1)
+                                #'(37.75 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -224,7 +224,7 @@
                                                 63
                                                 4
                             \translate
-                                #'(57.875 . 1)
+                                #'(38.91666666666667 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -233,7 +233,7 @@
                                                 65
                                                 4
                             \translate
-                                #'(60.5 . 1)
+                                #'(40.66666666666667 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -242,7 +242,7 @@
                                                 17
                                                 1
                             \translate
-                                #'(64.0 . 1)
+                                #'(43.0 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -251,7 +251,7 @@
                                                 18
                                                 1
                             \translate
-                                #'(68.375 . 1)
+                                #'(45.91666666666667 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -260,7 +260,7 @@
                                                 77
                                                 4
                             \translate
-                                #'(71.875 . 1)
+                                #'(48.25 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -269,7 +269,7 @@
                                                 81
                                                 4
                             \translate
-                                #'(74.5 . 1)
+                                #'(50.0 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -278,7 +278,7 @@
                                                 21
                                                 1
                             \translate
-                                #'(76.25 . 1)
+                                #'(51.16666666666667 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -287,7 +287,7 @@
                                                 43
                                                 2
                             \translate
-                                #'(77.125 . 1)
+                                #'(51.75 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -296,7 +296,7 @@
                                                 87
                                                 4
                             \translate
-                                #'(78.875 . 1)
+                                #'(52.91666666666667 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -305,7 +305,7 @@
                                                 89
                                                 4
                             \translate
-                                #'(81.5 . 1)
+                                #'(54.66666666666667 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -314,7 +314,7 @@
                                                 23
                                                 1
                             \translate
-                                #'(85.0 . 1)
+                                #'(57.0 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -323,7 +323,7 @@
                                                 24
                                                 1
                             \translate
-                                #'(89.375 . 1)
+                                #'(59.91666666666667 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -332,7 +332,7 @@
                                                 101
                                                 4
                             \translate
-                                #'(92.875 . 1)
+                                #'(62.25000000000001 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -341,7 +341,7 @@
                                                 105
                                                 4
                             \translate
-                                #'(95.5 . 1)
+                                #'(64.0 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -350,7 +350,7 @@
                                                 27
                                                 1
                             \translate
-                                #'(97.25 . 1)
+                                #'(65.16666666666667 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -359,7 +359,7 @@
                                                 55
                                                 2
                             \translate
-                                #'(98.125 . 1)
+                                #'(65.75 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -368,7 +368,7 @@
                                                 111
                                                 4
                             \translate
-                                #'(99.875 . 1)
+                                #'(66.91666666666667 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -377,7 +377,7 @@
                                                 113
                                                 4
                             \translate
-                                #'(102.5 . 1)
+                                #'(68.66666666666667 . 1)
                                 \sans
                                     \fontsize
                                         #-3
@@ -386,13 +386,184 @@
                                                 29
                                                 1
                             \translate
-                                #'(106.0 . 1)
+                                #'(71.0 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
                                                 30
+                                                1
+                            \translate
+                                #'(73.91666666666667 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                125
+                                                4
+                            \translate
+                                #'(76.25 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                129
+                                                4
+                            \translate
+                                #'(78.0 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                33
+                                                1
+                            \translate
+                                #'(79.16666666666667 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                67
+                                                2
+                            \translate
+                                #'(79.75 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                135
+                                                4
+                            \translate
+                                #'(80.91666666666667 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                137
+                                                4
+                            \translate
+                                #'(82.66666666666667 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                35
+                                                1
+                            \translate
+                                #'(85.0 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                36
+                                                1
+                            \translate
+                                #'(87.91666666666667 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                149
+                                                4
+                            \translate
+                                #'(90.25 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                153
+                                                4
+                            \translate
+                                #'(92.0 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                39
+                                                1
+                            \translate
+                                #'(93.16666666666667 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                79
+                                                2
+                            \translate
+                                #'(93.75 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                159
+                                                4
+                            \translate
+                                #'(94.91666666666667 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                161
+                                                4
+                            \translate
+                                #'(96.66666666666667 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                41
+                                                1
+                            \translate
+                                #'(99.0 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                42
+                                                1
+                            \translate
+                                #'(101.91666666666667 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                173
+                                                4
+                            \translate
+                                #'(104.25 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                177
+                                                4
+                            \translate
+                                #'(106.0 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                45
                                                 1
                         }
                     \pad-to-box
@@ -402,361 +573,532 @@
                             #"
                             0.2 setlinewidth
                             1 0.5 moveto
-                            5.375 0.5 lineto
+                            3.916666666666667 0.5 lineto
                             stroke
                             1 1.25 moveto
                             1 -0.25 lineto
                             stroke
-                            5.375 1.25 moveto
-                            5.375 -0.25 lineto
+                            3.916666666666667 1.25 moveto
+                            3.916666666666667 -0.25 lineto
                             stroke
-                            5.375 0.5 moveto
-                            8.875 0.5 lineto
+                            3.916666666666667 0.5 moveto
+                            6.25 0.5 lineto
                             stroke
-                            5.375 1.25 moveto
-                            5.375 -0.25 lineto
+                            3.916666666666667 1.25 moveto
+                            3.916666666666667 -0.25 lineto
                             stroke
-                            8.875 1.25 moveto
-                            8.875 -0.25 lineto
+                            6.25 1.25 moveto
+                            6.25 -0.25 lineto
                             stroke
-                            8.875 0.5 moveto
-                            11.5 0.5 lineto
+                            6.25 0.5 moveto
+                            8 0.5 lineto
                             stroke
-                            8.875 1.25 moveto
-                            8.875 -0.25 lineto
+                            6.25 1.25 moveto
+                            6.25 -0.25 lineto
                             stroke
-                            11.5 1.25 moveto
-                            11.5 -0.25 lineto
+                            8 1.25 moveto
+                            8 -0.25 lineto
                             stroke
-                            11.5 0.5 moveto
-                            13.25 0.5 lineto
+                            8 0.5 moveto
+                            9.166666666666668 0.5 lineto
                             stroke
-                            11.5 1.25 moveto
-                            11.5 -0.25 lineto
+                            8 1.25 moveto
+                            8 -0.25 lineto
                             stroke
-                            13.25 1.25 moveto
-                            13.25 -0.25 lineto
+                            9.166666666666668 1.25 moveto
+                            9.166666666666668 -0.25 lineto
                             stroke
-                            13.25 0.5 moveto
-                            14.125 0.5 lineto
+                            9.166666666666668 0.5 moveto
+                            9.75 0.5 lineto
                             stroke
-                            13.25 1.25 moveto
-                            13.25 -0.25 lineto
+                            9.166666666666668 1.25 moveto
+                            9.166666666666668 -0.25 lineto
                             stroke
-                            14.125 1.25 moveto
-                            14.125 -0.25 lineto
+                            9.75 1.25 moveto
+                            9.75 -0.25 lineto
                             stroke
-                            14.125 0.5 moveto
-                            15.875 0.5 lineto
+                            9.75 0.5 moveto
+                            10.916666666666668 0.5 lineto
                             stroke
-                            14.125 1.25 moveto
-                            14.125 -0.25 lineto
+                            9.75 1.25 moveto
+                            9.75 -0.25 lineto
                             stroke
-                            15.875 1.25 moveto
-                            15.875 -0.25 lineto
+                            10.916666666666668 1.25 moveto
+                            10.916666666666668 -0.25 lineto
                             stroke
-                            15.875 0.5 moveto
-                            18.5 0.5 lineto
+                            10.916666666666668 0.5 moveto
+                            12.666666666666668 0.5 lineto
                             stroke
-                            15.875 1.25 moveto
-                            15.875 -0.25 lineto
+                            10.916666666666668 1.25 moveto
+                            10.916666666666668 -0.25 lineto
                             stroke
-                            18.5 1.25 moveto
-                            18.5 -0.25 lineto
+                            12.666666666666668 1.25 moveto
+                            12.666666666666668 -0.25 lineto
                             stroke
-                            18.5 0.5 moveto
+                            12.666666666666668 0.5 moveto
+                            15 0.5 lineto
+                            stroke
+                            12.666666666666668 1.25 moveto
+                            12.666666666666668 -0.25 lineto
+                            stroke
+                            15 1.25 moveto
+                            15 -0.25 lineto
+                            stroke
+                            15 0.5 moveto
+                            17.916666666666668 0.5 lineto
+                            stroke
+                            15 1.25 moveto
+                            15 -0.25 lineto
+                            stroke
+                            17.916666666666668 1.25 moveto
+                            17.916666666666668 -0.25 lineto
+                            stroke
+                            17.916666666666668 0.5 moveto
+                            20.25 0.5 lineto
+                            stroke
+                            17.916666666666668 1.25 moveto
+                            17.916666666666668 -0.25 lineto
+                            stroke
+                            20.25 1.25 moveto
+                            20.25 -0.25 lineto
+                            stroke
+                            20.25 0.5 moveto
                             22 0.5 lineto
                             stroke
-                            18.5 1.25 moveto
-                            18.5 -0.25 lineto
+                            20.25 1.25 moveto
+                            20.25 -0.25 lineto
                             stroke
                             22 1.25 moveto
                             22 -0.25 lineto
                             stroke
                             22 0.5 moveto
-                            26.375 0.5 lineto
+                            23.166666666666668 0.5 lineto
                             stroke
                             22 1.25 moveto
                             22 -0.25 lineto
                             stroke
-                            26.375 1.25 moveto
-                            26.375 -0.25 lineto
+                            23.166666666666668 1.25 moveto
+                            23.166666666666668 -0.25 lineto
                             stroke
-                            26.375 0.5 moveto
-                            29.875 0.5 lineto
+                            23.166666666666668 0.5 moveto
+                            23.75 0.5 lineto
                             stroke
-                            26.375 1.25 moveto
-                            26.375 -0.25 lineto
+                            23.166666666666668 1.25 moveto
+                            23.166666666666668 -0.25 lineto
                             stroke
-                            29.875 1.25 moveto
-                            29.875 -0.25 lineto
+                            23.75 1.25 moveto
+                            23.75 -0.25 lineto
                             stroke
-                            29.875 0.5 moveto
-                            32.5 0.5 lineto
+                            23.75 0.5 moveto
+                            24.916666666666668 0.5 lineto
                             stroke
-                            29.875 1.25 moveto
-                            29.875 -0.25 lineto
+                            23.75 1.25 moveto
+                            23.75 -0.25 lineto
                             stroke
-                            32.5 1.25 moveto
-                            32.5 -0.25 lineto
+                            24.916666666666668 1.25 moveto
+                            24.916666666666668 -0.25 lineto
                             stroke
-                            32.5 0.5 moveto
+                            24.916666666666668 0.5 moveto
+                            26.666666666666668 0.5 lineto
+                            stroke
+                            24.916666666666668 1.25 moveto
+                            24.916666666666668 -0.25 lineto
+                            stroke
+                            26.666666666666668 1.25 moveto
+                            26.666666666666668 -0.25 lineto
+                            stroke
+                            26.666666666666668 0.5 moveto
+                            29 0.5 lineto
+                            stroke
+                            26.666666666666668 1.25 moveto
+                            26.666666666666668 -0.25 lineto
+                            stroke
+                            29 1.25 moveto
+                            29 -0.25 lineto
+                            stroke
+                            29 0.5 moveto
+                            31.916666666666668 0.5 lineto
+                            stroke
+                            29 1.25 moveto
+                            29 -0.25 lineto
+                            stroke
+                            31.916666666666668 1.25 moveto
+                            31.916666666666668 -0.25 lineto
+                            stroke
+                            31.916666666666668 0.5 moveto
                             34.25 0.5 lineto
                             stroke
-                            32.5 1.25 moveto
-                            32.5 -0.25 lineto
+                            31.916666666666668 1.25 moveto
+                            31.916666666666668 -0.25 lineto
                             stroke
                             34.25 1.25 moveto
                             34.25 -0.25 lineto
                             stroke
                             34.25 0.5 moveto
-                            35.125 0.5 lineto
+                            36 0.5 lineto
                             stroke
                             34.25 1.25 moveto
                             34.25 -0.25 lineto
                             stroke
-                            35.125 1.25 moveto
-                            35.125 -0.25 lineto
+                            36 1.25 moveto
+                            36 -0.25 lineto
                             stroke
-                            35.125 0.5 moveto
-                            36.875 0.5 lineto
+                            36 0.5 moveto
+                            37.16666666666667 0.5 lineto
                             stroke
-                            35.125 1.25 moveto
-                            35.125 -0.25 lineto
+                            36 1.25 moveto
+                            36 -0.25 lineto
                             stroke
-                            36.875 1.25 moveto
-                            36.875 -0.25 lineto
+                            37.16666666666667 1.25 moveto
+                            37.16666666666667 -0.25 lineto
                             stroke
-                            36.875 0.5 moveto
-                            39.5 0.5 lineto
+                            37.16666666666667 0.5 moveto
+                            37.75 0.5 lineto
                             stroke
-                            36.875 1.25 moveto
-                            36.875 -0.25 lineto
+                            37.16666666666667 1.25 moveto
+                            37.16666666666667 -0.25 lineto
                             stroke
-                            39.5 1.25 moveto
-                            39.5 -0.25 lineto
+                            37.75 1.25 moveto
+                            37.75 -0.25 lineto
                             stroke
-                            39.5 0.5 moveto
+                            37.75 0.5 moveto
+                            38.91666666666667 0.5 lineto
+                            stroke
+                            37.75 1.25 moveto
+                            37.75 -0.25 lineto
+                            stroke
+                            38.91666666666667 1.25 moveto
+                            38.91666666666667 -0.25 lineto
+                            stroke
+                            38.91666666666667 0.5 moveto
+                            40.66666666666667 0.5 lineto
+                            stroke
+                            38.91666666666667 1.25 moveto
+                            38.91666666666667 -0.25 lineto
+                            stroke
+                            40.66666666666667 1.25 moveto
+                            40.66666666666667 -0.25 lineto
+                            stroke
+                            40.66666666666667 0.5 moveto
                             43 0.5 lineto
                             stroke
-                            39.5 1.25 moveto
-                            39.5 -0.25 lineto
+                            40.66666666666667 1.25 moveto
+                            40.66666666666667 -0.25 lineto
                             stroke
                             43 1.25 moveto
                             43 -0.25 lineto
                             stroke
                             43 0.5 moveto
-                            47.375 0.5 lineto
+                            45.91666666666667 0.5 lineto
                             stroke
                             43 1.25 moveto
                             43 -0.25 lineto
                             stroke
-                            47.375 1.25 moveto
-                            47.375 -0.25 lineto
+                            45.91666666666667 1.25 moveto
+                            45.91666666666667 -0.25 lineto
                             stroke
-                            47.375 0.5 moveto
-                            50.875 0.5 lineto
+                            45.91666666666667 0.5 moveto
+                            48.25 0.5 lineto
                             stroke
-                            47.375 1.25 moveto
-                            47.375 -0.25 lineto
+                            45.91666666666667 1.25 moveto
+                            45.91666666666667 -0.25 lineto
                             stroke
-                            50.875 1.25 moveto
-                            50.875 -0.25 lineto
+                            48.25 1.25 moveto
+                            48.25 -0.25 lineto
                             stroke
-                            50.875 0.5 moveto
-                            53.5 0.5 lineto
+                            48.25 0.5 moveto
+                            50 0.5 lineto
                             stroke
-                            50.875 1.25 moveto
-                            50.875 -0.25 lineto
+                            48.25 1.25 moveto
+                            48.25 -0.25 lineto
                             stroke
-                            53.5 1.25 moveto
-                            53.5 -0.25 lineto
+                            50 1.25 moveto
+                            50 -0.25 lineto
                             stroke
-                            53.5 0.5 moveto
-                            55.25 0.5 lineto
+                            50 0.5 moveto
+                            51.16666666666667 0.5 lineto
                             stroke
-                            53.5 1.25 moveto
-                            53.5 -0.25 lineto
+                            50 1.25 moveto
+                            50 -0.25 lineto
                             stroke
-                            55.25 1.25 moveto
-                            55.25 -0.25 lineto
+                            51.16666666666667 1.25 moveto
+                            51.16666666666667 -0.25 lineto
                             stroke
-                            55.25 0.5 moveto
-                            56.125 0.5 lineto
+                            51.16666666666667 0.5 moveto
+                            51.75 0.5 lineto
                             stroke
-                            55.25 1.25 moveto
-                            55.25 -0.25 lineto
+                            51.16666666666667 1.25 moveto
+                            51.16666666666667 -0.25 lineto
                             stroke
-                            56.125 1.25 moveto
-                            56.125 -0.25 lineto
+                            51.75 1.25 moveto
+                            51.75 -0.25 lineto
                             stroke
-                            56.125 0.5 moveto
-                            57.875 0.5 lineto
+                            51.75 0.5 moveto
+                            52.91666666666667 0.5 lineto
                             stroke
-                            56.125 1.25 moveto
-                            56.125 -0.25 lineto
+                            51.75 1.25 moveto
+                            51.75 -0.25 lineto
                             stroke
-                            57.875 1.25 moveto
-                            57.875 -0.25 lineto
+                            52.91666666666667 1.25 moveto
+                            52.91666666666667 -0.25 lineto
                             stroke
-                            57.875 0.5 moveto
-                            60.5 0.5 lineto
+                            52.91666666666667 0.5 moveto
+                            54.66666666666667 0.5 lineto
                             stroke
-                            57.875 1.25 moveto
-                            57.875 -0.25 lineto
+                            52.91666666666667 1.25 moveto
+                            52.91666666666667 -0.25 lineto
                             stroke
-                            60.5 1.25 moveto
-                            60.5 -0.25 lineto
+                            54.66666666666667 1.25 moveto
+                            54.66666666666667 -0.25 lineto
                             stroke
-                            60.5 0.5 moveto
+                            54.66666666666667 0.5 moveto
+                            57 0.5 lineto
+                            stroke
+                            54.66666666666667 1.25 moveto
+                            54.66666666666667 -0.25 lineto
+                            stroke
+                            57 1.25 moveto
+                            57 -0.25 lineto
+                            stroke
+                            57 0.5 moveto
+                            59.91666666666667 0.5 lineto
+                            stroke
+                            57 1.25 moveto
+                            57 -0.25 lineto
+                            stroke
+                            59.91666666666667 1.25 moveto
+                            59.91666666666667 -0.25 lineto
+                            stroke
+                            59.91666666666667 0.5 moveto
+                            62.25000000000001 0.5 lineto
+                            stroke
+                            59.91666666666667 1.25 moveto
+                            59.91666666666667 -0.25 lineto
+                            stroke
+                            62.25000000000001 1.25 moveto
+                            62.25000000000001 -0.25 lineto
+                            stroke
+                            62.25000000000001 0.5 moveto
                             64 0.5 lineto
                             stroke
-                            60.5 1.25 moveto
-                            60.5 -0.25 lineto
+                            62.25000000000001 1.25 moveto
+                            62.25000000000001 -0.25 lineto
                             stroke
                             64 1.25 moveto
                             64 -0.25 lineto
                             stroke
                             64 0.5 moveto
-                            68.375 0.5 lineto
+                            65.16666666666667 0.5 lineto
                             stroke
                             64 1.25 moveto
                             64 -0.25 lineto
                             stroke
-                            68.375 1.25 moveto
-                            68.375 -0.25 lineto
+                            65.16666666666667 1.25 moveto
+                            65.16666666666667 -0.25 lineto
                             stroke
-                            68.375 0.5 moveto
-                            71.875 0.5 lineto
+                            65.16666666666667 0.5 moveto
+                            65.75 0.5 lineto
                             stroke
-                            68.375 1.25 moveto
-                            68.375 -0.25 lineto
+                            65.16666666666667 1.25 moveto
+                            65.16666666666667 -0.25 lineto
                             stroke
-                            71.875 1.25 moveto
-                            71.875 -0.25 lineto
+                            65.75 1.25 moveto
+                            65.75 -0.25 lineto
                             stroke
-                            71.875 0.5 moveto
-                            74.5 0.5 lineto
+                            65.75 0.5 moveto
+                            66.91666666666667 0.5 lineto
                             stroke
-                            71.875 1.25 moveto
-                            71.875 -0.25 lineto
+                            65.75 1.25 moveto
+                            65.75 -0.25 lineto
                             stroke
-                            74.5 1.25 moveto
-                            74.5 -0.25 lineto
+                            66.91666666666667 1.25 moveto
+                            66.91666666666667 -0.25 lineto
                             stroke
-                            74.5 0.5 moveto
+                            66.91666666666667 0.5 moveto
+                            68.66666666666667 0.5 lineto
+                            stroke
+                            66.91666666666667 1.25 moveto
+                            66.91666666666667 -0.25 lineto
+                            stroke
+                            68.66666666666667 1.25 moveto
+                            68.66666666666667 -0.25 lineto
+                            stroke
+                            68.66666666666667 0.5 moveto
+                            71 0.5 lineto
+                            stroke
+                            68.66666666666667 1.25 moveto
+                            68.66666666666667 -0.25 lineto
+                            stroke
+                            71 1.25 moveto
+                            71 -0.25 lineto
+                            stroke
+                            71 0.5 moveto
+                            73.91666666666667 0.5 lineto
+                            stroke
+                            71 1.25 moveto
+                            71 -0.25 lineto
+                            stroke
+                            73.91666666666667 1.25 moveto
+                            73.91666666666667 -0.25 lineto
+                            stroke
+                            73.91666666666667 0.5 moveto
                             76.25 0.5 lineto
                             stroke
-                            74.5 1.25 moveto
-                            74.5 -0.25 lineto
+                            73.91666666666667 1.25 moveto
+                            73.91666666666667 -0.25 lineto
                             stroke
                             76.25 1.25 moveto
                             76.25 -0.25 lineto
                             stroke
                             76.25 0.5 moveto
-                            77.125 0.5 lineto
+                            78 0.5 lineto
                             stroke
                             76.25 1.25 moveto
                             76.25 -0.25 lineto
                             stroke
-                            77.125 1.25 moveto
-                            77.125 -0.25 lineto
+                            78 1.25 moveto
+                            78 -0.25 lineto
                             stroke
-                            77.125 0.5 moveto
-                            78.875 0.5 lineto
+                            78 0.5 moveto
+                            79.16666666666667 0.5 lineto
                             stroke
-                            77.125 1.25 moveto
-                            77.125 -0.25 lineto
+                            78 1.25 moveto
+                            78 -0.25 lineto
                             stroke
-                            78.875 1.25 moveto
-                            78.875 -0.25 lineto
+                            79.16666666666667 1.25 moveto
+                            79.16666666666667 -0.25 lineto
                             stroke
-                            78.875 0.5 moveto
-                            81.5 0.5 lineto
+                            79.16666666666667 0.5 moveto
+                            79.75 0.5 lineto
                             stroke
-                            78.875 1.25 moveto
-                            78.875 -0.25 lineto
+                            79.16666666666667 1.25 moveto
+                            79.16666666666667 -0.25 lineto
                             stroke
-                            81.5 1.25 moveto
-                            81.5 -0.25 lineto
+                            79.75 1.25 moveto
+                            79.75 -0.25 lineto
                             stroke
-                            81.5 0.5 moveto
+                            79.75 0.5 moveto
+                            80.91666666666667 0.5 lineto
+                            stroke
+                            79.75 1.25 moveto
+                            79.75 -0.25 lineto
+                            stroke
+                            80.91666666666667 1.25 moveto
+                            80.91666666666667 -0.25 lineto
+                            stroke
+                            80.91666666666667 0.5 moveto
+                            82.66666666666667 0.5 lineto
+                            stroke
+                            80.91666666666667 1.25 moveto
+                            80.91666666666667 -0.25 lineto
+                            stroke
+                            82.66666666666667 1.25 moveto
+                            82.66666666666667 -0.25 lineto
+                            stroke
+                            82.66666666666667 0.5 moveto
                             85 0.5 lineto
                             stroke
-                            81.5 1.25 moveto
-                            81.5 -0.25 lineto
+                            82.66666666666667 1.25 moveto
+                            82.66666666666667 -0.25 lineto
                             stroke
                             85 1.25 moveto
                             85 -0.25 lineto
                             stroke
                             85 0.5 moveto
-                            89.375 0.5 lineto
+                            87.91666666666667 0.5 lineto
                             stroke
                             85 1.25 moveto
                             85 -0.25 lineto
                             stroke
-                            89.375 1.25 moveto
-                            89.375 -0.25 lineto
+                            87.91666666666667 1.25 moveto
+                            87.91666666666667 -0.25 lineto
                             stroke
-                            89.375 0.5 moveto
-                            92.875 0.5 lineto
+                            87.91666666666667 0.5 moveto
+                            90.25 0.5 lineto
                             stroke
-                            89.375 1.25 moveto
-                            89.375 -0.25 lineto
+                            87.91666666666667 1.25 moveto
+                            87.91666666666667 -0.25 lineto
                             stroke
-                            92.875 1.25 moveto
-                            92.875 -0.25 lineto
+                            90.25 1.25 moveto
+                            90.25 -0.25 lineto
                             stroke
-                            92.875 0.5 moveto
-                            95.5 0.5 lineto
+                            90.25 0.5 moveto
+                            92 0.5 lineto
                             stroke
-                            92.875 1.25 moveto
-                            92.875 -0.25 lineto
+                            90.25 1.25 moveto
+                            90.25 -0.25 lineto
                             stroke
-                            95.5 1.25 moveto
-                            95.5 -0.25 lineto
+                            92 1.25 moveto
+                            92 -0.25 lineto
                             stroke
-                            95.5 0.5 moveto
-                            97.25 0.5 lineto
+                            92 0.5 moveto
+                            93.16666666666667 0.5 lineto
                             stroke
-                            95.5 1.25 moveto
-                            95.5 -0.25 lineto
+                            92 1.25 moveto
+                            92 -0.25 lineto
                             stroke
-                            97.25 1.25 moveto
-                            97.25 -0.25 lineto
+                            93.16666666666667 1.25 moveto
+                            93.16666666666667 -0.25 lineto
                             stroke
-                            97.25 0.5 moveto
-                            98.125 0.5 lineto
+                            93.16666666666667 0.5 moveto
+                            93.75 0.5 lineto
                             stroke
-                            97.25 1.25 moveto
-                            97.25 -0.25 lineto
+                            93.16666666666667 1.25 moveto
+                            93.16666666666667 -0.25 lineto
                             stroke
-                            98.125 1.25 moveto
-                            98.125 -0.25 lineto
+                            93.75 1.25 moveto
+                            93.75 -0.25 lineto
                             stroke
-                            98.125 0.5 moveto
-                            99.875 0.5 lineto
+                            93.75 0.5 moveto
+                            94.91666666666667 0.5 lineto
                             stroke
-                            98.125 1.25 moveto
-                            98.125 -0.25 lineto
+                            93.75 1.25 moveto
+                            93.75 -0.25 lineto
                             stroke
-                            99.875 1.25 moveto
-                            99.875 -0.25 lineto
+                            94.91666666666667 1.25 moveto
+                            94.91666666666667 -0.25 lineto
                             stroke
-                            99.875 0.5 moveto
-                            102.5 0.5 lineto
+                            94.91666666666667 0.5 moveto
+                            96.66666666666667 0.5 lineto
                             stroke
-                            99.875 1.25 moveto
-                            99.875 -0.25 lineto
+                            94.91666666666667 1.25 moveto
+                            94.91666666666667 -0.25 lineto
                             stroke
-                            102.5 1.25 moveto
-                            102.5 -0.25 lineto
+                            96.66666666666667 1.25 moveto
+                            96.66666666666667 -0.25 lineto
                             stroke
-                            102.5 0.5 moveto
+                            96.66666666666667 0.5 moveto
+                            99 0.5 lineto
+                            stroke
+                            96.66666666666667 1.25 moveto
+                            96.66666666666667 -0.25 lineto
+                            stroke
+                            99 1.25 moveto
+                            99 -0.25 lineto
+                            stroke
+                            99 0.5 moveto
+                            101.91666666666667 0.5 lineto
+                            stroke
+                            99 1.25 moveto
+                            99 -0.25 lineto
+                            stroke
+                            101.91666666666667 1.25 moveto
+                            101.91666666666667 -0.25 lineto
+                            stroke
+                            101.91666666666667 0.5 moveto
+                            104.25 0.5 lineto
+                            stroke
+                            101.91666666666667 1.25 moveto
+                            101.91666666666667 -0.25 lineto
+                            stroke
+                            104.25 1.25 moveto
+                            104.25 -0.25 lineto
+                            stroke
+                            104.25 0.5 moveto
                             106 0.5 lineto
                             stroke
-                            102.5 1.25 moveto
-                            102.5 -0.25 lineto
+                            104.25 1.25 moveto
+                            104.25 -0.25 lineto
                             stroke
                             106 1.25 moveto
                             106 -0.25 lineto
@@ -766,122 +1108,179 @@
                             1 2.5 moveto
                             1 1 lineto
                             stroke
-                            5.375 2.5 moveto
-                            5.375 1 lineto
+                            3.916666666666667 2.5 moveto
+                            3.916666666666667 1 lineto
                             stroke
-                            8.875 2.5 moveto
-                            8.875 1 lineto
+                            6.25 2.5 moveto
+                            6.25 1 lineto
                             stroke
-                            11.5 2.5 moveto
-                            11.5 1 lineto
+                            8 2.5 moveto
+                            8 1 lineto
                             stroke
-                            13.25 2.5 moveto
-                            13.25 1 lineto
+                            9.166666666666668 2.5 moveto
+                            9.166666666666668 1 lineto
                             stroke
-                            14.125 2.5 moveto
-                            14.125 1 lineto
+                            9.75 2.5 moveto
+                            9.75 1 lineto
                             stroke
-                            15.875 2.5 moveto
-                            15.875 1 lineto
+                            10.916666666666668 2.5 moveto
+                            10.916666666666668 1 lineto
                             stroke
-                            18.5 2.5 moveto
-                            18.5 1 lineto
+                            12.666666666666668 2.5 moveto
+                            12.666666666666668 1 lineto
+                            stroke
+                            15 2.5 moveto
+                            15 1 lineto
+                            stroke
+                            17.916666666666668 2.5 moveto
+                            17.916666666666668 1 lineto
+                            stroke
+                            20.25 2.5 moveto
+                            20.25 1 lineto
                             stroke
                             22 2.5 moveto
                             22 1 lineto
                             stroke
-                            26.375 2.5 moveto
-                            26.375 1 lineto
+                            23.166666666666668 2.5 moveto
+                            23.166666666666668 1 lineto
                             stroke
-                            29.875 2.5 moveto
-                            29.875 1 lineto
+                            23.75 2.5 moveto
+                            23.75 1 lineto
                             stroke
-                            32.5 2.5 moveto
-                            32.5 1 lineto
+                            24.916666666666668 2.5 moveto
+                            24.916666666666668 1 lineto
+                            stroke
+                            26.666666666666668 2.5 moveto
+                            26.666666666666668 1 lineto
+                            stroke
+                            29 2.5 moveto
+                            29 1 lineto
+                            stroke
+                            31.916666666666668 2.5 moveto
+                            31.916666666666668 1 lineto
                             stroke
                             34.25 2.5 moveto
                             34.25 1 lineto
                             stroke
-                            35.125 2.5 moveto
-                            35.125 1 lineto
+                            36 2.5 moveto
+                            36 1 lineto
                             stroke
-                            36.875 2.5 moveto
-                            36.875 1 lineto
+                            37.16666666666667 2.5 moveto
+                            37.16666666666667 1 lineto
                             stroke
-                            39.5 2.5 moveto
-                            39.5 1 lineto
+                            37.75 2.5 moveto
+                            37.75 1 lineto
+                            stroke
+                            38.91666666666667 2.5 moveto
+                            38.91666666666667 1 lineto
+                            stroke
+                            40.66666666666667 2.5 moveto
+                            40.66666666666667 1 lineto
                             stroke
                             43 2.5 moveto
                             43 1 lineto
                             stroke
-                            47.375 2.5 moveto
-                            47.375 1 lineto
+                            45.91666666666667 2.5 moveto
+                            45.91666666666667 1 lineto
                             stroke
-                            50.875 2.5 moveto
-                            50.875 1 lineto
+                            48.25 2.5 moveto
+                            48.25 1 lineto
                             stroke
-                            53.5 2.5 moveto
-                            53.5 1 lineto
+                            50 2.5 moveto
+                            50 1 lineto
                             stroke
-                            55.25 2.5 moveto
-                            55.25 1 lineto
+                            51.16666666666667 2.5 moveto
+                            51.16666666666667 1 lineto
                             stroke
-                            56.125 2.5 moveto
-                            56.125 1 lineto
+                            51.75 2.5 moveto
+                            51.75 1 lineto
                             stroke
-                            57.875 2.5 moveto
-                            57.875 1 lineto
+                            52.91666666666667 2.5 moveto
+                            52.91666666666667 1 lineto
                             stroke
-                            60.5 2.5 moveto
-                            60.5 1 lineto
+                            54.66666666666667 2.5 moveto
+                            54.66666666666667 1 lineto
+                            stroke
+                            57 2.5 moveto
+                            57 1 lineto
+                            stroke
+                            59.91666666666667 2.5 moveto
+                            59.91666666666667 1 lineto
+                            stroke
+                            62.25000000000001 2.5 moveto
+                            62.25000000000001 1 lineto
                             stroke
                             64 2.5 moveto
                             64 1 lineto
                             stroke
-                            68.375 2.5 moveto
-                            68.375 1 lineto
+                            65.16666666666667 2.5 moveto
+                            65.16666666666667 1 lineto
                             stroke
-                            71.875 2.5 moveto
-                            71.875 1 lineto
+                            65.75 2.5 moveto
+                            65.75 1 lineto
                             stroke
-                            74.5 2.5 moveto
-                            74.5 1 lineto
+                            66.91666666666667 2.5 moveto
+                            66.91666666666667 1 lineto
+                            stroke
+                            68.66666666666667 2.5 moveto
+                            68.66666666666667 1 lineto
+                            stroke
+                            71 2.5 moveto
+                            71 1 lineto
+                            stroke
+                            73.91666666666667 2.5 moveto
+                            73.91666666666667 1 lineto
                             stroke
                             76.25 2.5 moveto
                             76.25 1 lineto
                             stroke
-                            77.125 2.5 moveto
-                            77.125 1 lineto
+                            78 2.5 moveto
+                            78 1 lineto
                             stroke
-                            78.875 2.5 moveto
-                            78.875 1 lineto
+                            79.16666666666667 2.5 moveto
+                            79.16666666666667 1 lineto
                             stroke
-                            81.5 2.5 moveto
-                            81.5 1 lineto
+                            79.75 2.5 moveto
+                            79.75 1 lineto
+                            stroke
+                            80.91666666666667 2.5 moveto
+                            80.91666666666667 1 lineto
+                            stroke
+                            82.66666666666667 2.5 moveto
+                            82.66666666666667 1 lineto
                             stroke
                             85 2.5 moveto
                             85 1 lineto
                             stroke
-                            89.375 2.5 moveto
-                            89.375 1 lineto
+                            87.91666666666667 2.5 moveto
+                            87.91666666666667 1 lineto
                             stroke
-                            92.875 2.5 moveto
-                            92.875 1 lineto
+                            90.25 2.5 moveto
+                            90.25 1 lineto
                             stroke
-                            95.5 2.5 moveto
-                            95.5 1 lineto
+                            92 2.5 moveto
+                            92 1 lineto
                             stroke
-                            97.25 2.5 moveto
-                            97.25 1 lineto
+                            93.16666666666667 2.5 moveto
+                            93.16666666666667 1 lineto
                             stroke
-                            98.125 2.5 moveto
-                            98.125 1 lineto
+                            93.75 2.5 moveto
+                            93.75 1 lineto
                             stroke
-                            99.875 2.5 moveto
-                            99.875 1 lineto
+                            94.91666666666667 2.5 moveto
+                            94.91666666666667 1 lineto
                             stroke
-                            102.5 2.5 moveto
-                            102.5 1 lineto
+                            96.66666666666667 2.5 moveto
+                            96.66666666666667 1 lineto
+                            stroke
+                            99 2.5 moveto
+                            99 1 lineto
+                            stroke
+                            101.91666666666667 2.5 moveto
+                            101.91666666666667 1 lineto
+                            stroke
+                            104.25 2.5 moveto
+                            104.25 1 lineto
                             stroke
                             106 2.5 moveto
                             106 1 lineto

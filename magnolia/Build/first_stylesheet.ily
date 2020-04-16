@@ -10,10 +10,10 @@
 \header {
 	tagline = ##f
 	breakbefore = ##t
-	dedication = \markup \override #'(font-name . "STIXGeneral") \fontsize #7 \center-column {"to Dennis Kwok"}
-	title = \markup \override #'(font-name . "STIXGeneral") \fontsize #13.5 \center-column {"Frost on Magnolia Petals"}
-	subtitle = \markup \override #'(font-name . "STIXGeneral") \fontsize #6 \center-column {"for alto saxophone alone"}
-	composer = \markup \override #'(font-name . "STIXGeneral") \fontsize #3 {"Gregory Rowland Evans" \override #'(font-name . "STIXGeneral") "(*1995)"}
+	dedication = \markup \override #'(font-name . "STIXGeneral") \fontsize #3 \center-column {\line{"t o   D e n n i s   K w o k"} \with-color #white \line{"."} }
+	title = \markup \override #'(font-name . "STIXGeneral") \fontsize #14 \center-column {"Frost on Magnolia Petals"}
+	subtitle = \markup \override #'(font-name . "STIXGeneral") \fontsize #2 \center-column {\with-color #white \line{"."} \with-color #black \line{"f o r   a l t o   s a x o p h o n e   a l o n e"} }
+	composer = \markup \override #'(font-name . "STIXGeneral") \fontsize #3 {"Gregory Rowland Evans (*1995)"}
 }
 
 \layout {
@@ -43,12 +43,13 @@
 		%{ \override BarNumber.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print) %}
 		\override BarNumber.font-size = 3
 		\override BarNumber.padding = 4
-		%\override BarNumber.stencil = ##f
+		\override BarNumber.stencil = ##f %
 		\override MetronomeMark.X-extent = #'(0 . 0)
 		\override MetronomeMark.Y-extent = #'(0 . 0)
 		\override MetronomeMark.break-align-symbols = #'(left-edge)
 		\override MetronomeMark.extra-offset = #'(0 . 1)
 		\override MetronomeMark.font-size = 2
+		\override MetronomeMark.stencil = ##f
 		%\override RehearsalMark.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print)
 		%{ \override RehearsalMark.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print) %}
 		\override RehearsalMark.X-extent = #'(0 . 0)
@@ -97,7 +98,7 @@
   		\override Clef.whiteout = 1
 		\override DynamicText.font-size = #-2
 		%{ \override DynamicLineSpanner.staff-padding = 4.5 %}
-		\override DynamicLineSpanner.staff-padding = 9
+		\override DynamicLineSpanner.staff-padding = 7
 		\override DynamicLineSpanner.padding = 2
         %{ \override DynamicLineSpanner.Y-extent = #'(-1.5 . 1.5) %}
 		\override Hairpin.bound-padding = #1

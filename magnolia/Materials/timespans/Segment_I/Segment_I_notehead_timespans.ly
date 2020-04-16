@@ -41,7 +41,7 @@
                                         #-3
                                         \center-align
                                             \fraction
-                                                15
+                                                45
                                                 1
                         }
                     \pad-to-box
