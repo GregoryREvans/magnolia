@@ -1446,3 +1446,19 @@ rhythm_handler_one
 rhythm_handler_two
 {'last index used': 1}
 
+2020-05-05 09:13:36.729647
+rhythm_handler_three
+{'last index used': 2}
+
+2020-05-05 09:21:36.810845
+rhythm_handler_three
+{'last index used': 2}
+
+2020-05-05 09:25:01.496479
+rhythm_handler_three
+{'last index used': 3}
+
+2020-05-11 12:01:50.230159
+rhythm_handler_three
+{'last index used': 3}
+

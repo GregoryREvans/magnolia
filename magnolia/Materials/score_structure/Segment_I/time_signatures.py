@@ -9,6 +9,10 @@ persisted_counter = abjad.persist(offset_counter).as_pdf(counter_path, scale=0.7
 
 permitted_meters = abjad.MeterList(
     [
+        (9, 4),
+        (8, 4),
+        (7, 4),
+        (6, 4),
         (5, 4),
         (9, 8),
         (4, 4),

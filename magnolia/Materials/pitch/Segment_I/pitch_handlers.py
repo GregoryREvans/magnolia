@@ -1,5 +1,5 @@
 import evans
-from magnolia.Materials.pitch.Segment_I.pitches import (chord_1, chord_2)
+from magnolia.Materials.pitch.Segment_I.pitches import chord_1, chord_2
 
 
 saxophone_pitch_handler_one = evans.PitchHandler(
