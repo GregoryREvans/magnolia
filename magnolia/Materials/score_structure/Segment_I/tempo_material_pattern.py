@@ -1,6 +1,5 @@
 from magnolia.Materials.tempo.Segment_I.tempo_handlers import *
 
-
 key_list_1 = ["tempo_handler_one"]
 
 dict = {"tempo_handler_one": tempo_handler_one}

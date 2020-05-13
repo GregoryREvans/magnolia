@@ -1,6 +1,5 @@
 import abjad
 
-
 instrument_one = abjad.AltoSaxophone()
 instrument_one_range = instrument_one.pitch_range
 instrument_one_range_lowest = abjad.NumberedPitch(instrument_one_range.start_pitch)

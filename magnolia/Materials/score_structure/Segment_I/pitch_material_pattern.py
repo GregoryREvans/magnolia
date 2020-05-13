@@ -1,7 +1,6 @@
 import evans
 from magnolia.Materials.pitch.Segment_I.pitch_handlers import *
 
-
 key_list_1 = [
     "saxophone_pitch_handler_one",
     "saxophone_pitch_handler_one",

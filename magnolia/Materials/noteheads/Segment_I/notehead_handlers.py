@@ -1,6 +1,5 @@
 import evans
 
-
 notehead_handler_one = evans.NoteheadHandler(
     notehead_list=[
         "default",

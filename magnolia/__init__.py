@@ -1,3 +1,1 @@
-from . import Build
-from . import Materials
-from . import Segments
+from . import Build, Materials, Segments
