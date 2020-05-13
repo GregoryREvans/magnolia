@@ -1,15 +1,13 @@
-# hello world, this is my first travis file
-sudo: false
+os: linux
+
+dist: xenial
 
 language: python
 
-# xenial necessary for "3.8-dev"
-# dist: xenial # this test latex
-
 python:
     - 3.6
-    # - 3.7
-    #- "3.8-dev"
+    - 3.7
+    - 3.8
 
 before_install:
     # name working directory:
@@ -62,12 +60,8 @@ before_install:
     # log setup:
     - echo $PYTHONPATH
 
-install:
-    - pip install coverage
-    # - pip install -e .
-
 script:
-    - coverage run -a `which py.test` -rf $PACKAGE
+    - py.test -rf $PACKAGE
 
 after_success:
     - pip install --quiet coveralls
