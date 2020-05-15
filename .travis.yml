@@ -61,7 +61,7 @@ before_install:
     - echo $PYTHONPATH
 
 script:
-    - py.test -rf $PACKAGE
+    - py.test -rf $PACKAGE/test.py
 
 after_success:
     - pip install --quiet coveralls
