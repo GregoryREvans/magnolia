@@ -1,4 +1,3 @@
-# from . import attachments
 from . import (
     articulations,
     dynamics,
