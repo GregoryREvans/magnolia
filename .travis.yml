@@ -20,6 +20,9 @@ before_install:
     # upgrade pip:
     - pip install --upgrade pip
 
+    # install isort:
+    - pip install isort
+
     # install lilypond:
     - LILYPOND=/tmp/lilypond
     - LILYPOND_URL=http://lilypond.org/download/binaries/linux-64/
@@ -27,7 +30,7 @@ before_install:
     - wget -q -O $LILYPOND $LILYPOND_URL/$LILYPOND_SOURCE
     - sh $LILYPOND --batch
 
-    # clone & install abjad dev branch:
+    # clone & install abjad:
     - ABJAD=/tmp/abjad
     - git clone -b master https://github.com/Abjad/abjad.git $ABJAD
     - pip install -e $ABJAD
@@ -46,6 +49,7 @@ before_install:
     - EVANS=/tmp/evans
     - git clone https://github.com/GregoryREvans/evans.git $EVANS
     - export PYTHONPATH=$EVANS/:$PYTHONPATH
+    - export PATH=$EVANS/evans/scr/:$PATH
 
     # clone & install baca:
     - BACA=/tmp/baca
@@ -70,13 +74,13 @@ before_install:
     - echo $TRAVIS_BUILD_DIR
     - ls
     - echo $PACKAGE
+    - which isort-check
+    - which black-check
 
 script:
+    - isort-check $PACKAGE
+    - black-check $PACKAGE
     - py.test -rf $PACKAGE/test.py
-
-after_success:
-    - pip install --quiet coveralls
-    - coveralls
 
 notifications:
     email: false
