@@ -1,5 +1,9 @@
-import evans
-from magnolia.Materials.rhythm.Segment_I.rhythm_handlers import *
+from magnolia.Materials.rhythm.Segment_I.rhythm_handlers import (
+    rhythm_handler_one,
+    rhythm_handler_three,
+    rhythm_handler_two,
+    silence_maker,
+)
 
 # np.random.seed(7)
 # key_list_1 = [x for x in material_chain.generate_states(current_state='rhythm_handler_two', no=14)]

@@ -1,4 +1,6 @@
-from magnolia.Materials.noteheads.Segment_I.notehead_handlers import *
+from magnolia.Materials.noteheads.Segment_I.notehead_handlers import (
+    notehead_handler_one,
+)
 
 key_list_1 = ["notehead_handler_one"]
 
