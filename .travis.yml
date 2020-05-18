@@ -79,6 +79,7 @@ before_install:
     - echo $PACKAGE
     - which isort-check
     - which black-check
+    - which flake8-check-local
 
 script:
     - isort-check $PACKAGE
