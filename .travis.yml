@@ -83,7 +83,7 @@ before_install:
 script:
     - isort-check $PACKAGE
     - black-check $PACKAGE
-    - flake8-check $PACKAGE
+    - flake8-check-local $PACKAGE
     - py.test -rf $PACKAGE/test.py
 
 notifications:
