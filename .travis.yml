@@ -77,14 +77,14 @@ before_install:
     - echo $TRAVIS_BUILD_DIR
     - ls
     - echo $PACKAGE
-    - which isort-check
     - which black-check
-    - which flake8-check-local
+    - which flake8-check
+    - which isort-check
 
 script:
-    - isort-check $PACKAGE
     - black-check $PACKAGE
-    - flake8-check-local $PACKAGE
+    - flake8-check $PACKAGE
+    - isort-check $PACKAGE
     - py.test -rf $PACKAGE/test.py
 
 notifications:
