@@ -39,9 +39,7 @@ before_install:
     # clone & install rmakers:
     - RMAKERS=/tmp/abjad-ext-rmakers
     - git clone https://github.com/Abjad/abjad-ext-rmakers.git $RMAKERS
-    - cd $RMAKERS
     - pip install -e $RMAKERS
-    - cd ..
     - export MYPYPATH=$MYPYPATH:$RMAKERS
 
     # clone & install evans:
