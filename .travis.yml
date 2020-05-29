@@ -48,7 +48,7 @@ before_install:
     - export PYTHONPATH=$EVANS/:$PYTHONPATH
     - export PATH=$EVANS/evans/scr/:$PATH
     - export MYPYPATH=$MYPYPATH:$EVANS
-    - ln -s $EVANS/evans/dotfiles/.mypy.ini
+    - ln -s $EVANS/evans/dotfiles/.mypy.ini ~/.mypy.ini
 
     # clone & install baca:
     - BACA=/tmp/baca
@@ -75,6 +75,7 @@ before_install:
     - ls
     - echo $PACKAGE
     - pwd
+    - echo $TRAVIS_BUILD_DIR
     - which black-check
     - which evans-doctest
     - which flake8-check
