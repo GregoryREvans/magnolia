@@ -76,6 +76,7 @@ before_install:
     - echo $TRAVIS_BUILD_DIR
     - ls
     - echo $PACKAGE
+    - pwd
     - which black-check
     - which evans-doctest
     - which flake8-check
