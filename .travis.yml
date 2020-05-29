@@ -52,6 +52,7 @@ before_install:
     - git clone https://github.com/GregoryREvans/evans.git $EVANS
     - export PYTHONPATH=$EVANS/:$PYTHONPATH
     - export PATH=$EVANS/evans/scr/:$PATH
+    - export MYPYPATH=$MYPYPATH:$EVANS
 
     # clone & install baca:
     - BACA=/tmp/baca
