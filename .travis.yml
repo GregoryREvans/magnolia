@@ -10,9 +10,6 @@ python:
     - 3.8
 
 before_install:
-    # name working directory:
-    - LOCATION=`pwd`
-
     # alias package:
     - PACKAGE=`pwd`/magnolia
     - export PYTHONPATH=$PACKAGE:$PYTHONPATH
@@ -44,7 +41,7 @@ before_install:
     - git clone https://github.com/Abjad/abjad-ext-rmakers.git $RMAKERS
     - cd $RMAKERS
     - pip install -e $RMAKERS
-    - cd $LOCATION
+    - cd ..
     - export MYPYPATH=$MYPYPATH:$RMAKERS
 
     # clone & install evans:
@@ -53,6 +50,7 @@ before_install:
     - export PYTHONPATH=$EVANS/:$PYTHONPATH
     - export PATH=$EVANS/evans/scr/:$PATH
     - export MYPYPATH=$MYPYPATH:$EVANS
+    - ln -s $EVANS/evans/dotfiles/.mypy.ini
 
     # clone & install baca:
     - BACA=/tmp/baca
