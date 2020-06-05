@@ -4,4 +4,4 @@ env:
     global:
         - name=magnolia
 
-import: GregoryREvans/evans:dotfiles/score.yml
+import: GregoryREvans/evans:evans/dotfiles/score.yml
