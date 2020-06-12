@@ -1,7 +1,3 @@
 version: ~> 1.0
 
-env:
-    global:
-        - name=magnolia
-
 import: GregoryREvans/evans:evans/dotfiles/score.yml
