@@ -25,9 +25,9 @@ from magnolia.Materials.timespans.Segment_I.make_timespans import (
     rhythm_timespan_list,
 )
 
-########
+# #######
 # rhythm#
-########
+# #######
 rhythm_mat = rhythm_material_list
 
 segment_I_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
@@ -40,9 +40,9 @@ segment_I_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
     split=True,
 )
 
-#######
+# ######
 # pitch#
-#######
+# ######
 pitch_mat = pitch_material_list
 
 segment_I_pitch_timespans = evans.ConvertTimespans.convert_timespans(
@@ -54,9 +54,9 @@ segment_I_pitch_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-#######
+# ######
 # notehead#
-#######
+# ######
 notehead_mat = notehead_material_list
 
 segment_I_notehead_timespans = evans.ConvertTimespans.convert_timespans(
@@ -68,9 +68,9 @@ segment_I_notehead_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-#########
+# ########
 # dynamic#
-#########
+# ########
 dynamic_mat = dynamic_material_list
 
 segment_I_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
@@ -82,9 +82,9 @@ segment_I_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-##############
+# #############
 # articulation#
-##############
+# #############
 articulation_mat = articulation_material_list
 
 segment_I_articulation_timespans = evans.ConvertTimespans.convert_timespans(
@@ -96,9 +96,9 @@ segment_I_articulation_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-###############
+# ##############
 # all timespans#
-###############
+# ##############
 segment_I_timespans = [
     segment_I_pitch_timespans,
     segment_I_notehead_timespans,
