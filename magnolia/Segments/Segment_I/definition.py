@@ -1,5 +1,3 @@
-raise Exception("flamingo")
-
 import pathlib
 
 import abjad
