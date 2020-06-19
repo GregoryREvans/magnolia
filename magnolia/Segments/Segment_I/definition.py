@@ -11,6 +11,8 @@ from magnolia.Materials.timespans.Segment_I.convert_timespans import (
     segment_I_timespans,
 )
 
+raise Exception("Checking travis tests")
+
 c = abjad.LilyPondLiteral(
     [
         r"""_ \markup {""",
