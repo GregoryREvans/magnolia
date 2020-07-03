@@ -42,10 +42,6 @@ maker = evans.SegmentMaker(
         "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
         "/Users/evansdsg2/Scores/magnolia/magnolia/Build/first_stylesheet.ily",
     ],
-    parts_includes=[
-        "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
-        "/Users/evansdsg2/Scores/magnolia/magnolia/Build/parts_stylesheet.ily",
-    ],
     segment_name="Segment_I",
     current_directory=pathlib.Path(__file__).parent,
     build_path=(pathlib.Path(__file__).parent / ".." / ".." / "Build").resolve(),
@@ -55,7 +51,6 @@ maker = evans.SegmentMaker(
     barline="|.",
     tempo=((1, 4), 60),
     page_break_counts=[90],
-    midi=False,
     colophon=c,
 )
 
