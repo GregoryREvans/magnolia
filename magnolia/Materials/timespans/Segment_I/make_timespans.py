@@ -1,7 +1,7 @@
 from collections import OrderedDict
 
 import abjad
-import abjadext.rmakers as rmakers
+from abjadext import rmakers as rmakers
 from magnolia.Materials.score_structure.instruments import instruments
 from tsmakers.TaleaTimespanMaker import TaleaTimespanMaker
 
