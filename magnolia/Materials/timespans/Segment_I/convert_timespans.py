@@ -1,6 +1,7 @@
 import pathlib
 
 import evans
+
 from magnolia.Materials.score_structure.Segment_I.articulation_material_pattern import (
     articulation_material_list,
 )

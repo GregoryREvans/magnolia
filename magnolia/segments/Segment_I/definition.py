@@ -2,6 +2,7 @@ import pathlib
 
 import abjad
 import evans
+
 from magnolia.Materials.pitch.Segment_I.clef_handlers import clef_handlers
 from magnolia.Materials.score_structure.Segment_I.time_signatures import time_signatures
 from magnolia.Materials.score_structure.instruments import instruments as insts

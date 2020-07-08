@@ -1,6 +1,7 @@
 import pathlib
 
 import abjad
+
 from magnolia.Materials.timespans.Segment_I.make_timespans import rhythm_timespan_list
 
 offset_counter = abjad.OffsetCounter(rhythm_timespan_list)
