@@ -2,23 +2,23 @@ import pathlib
 
 import evans
 
-from magnolia.Materials.score_structure.Segment_I.articulation_material_pattern import (
+from magnolia.materials.score_structure.segment_01.articulation_material_pattern import (
     articulation_material_list,
 )
-from magnolia.Materials.score_structure.Segment_I.dynamic_material_pattern import (
+from magnolia.materials.score_structure.segment_01.dynamic_material_pattern import (
     dynamic_material_list,
 )
-from magnolia.Materials.score_structure.Segment_I.notehead_material_pattern import (
+from magnolia.materials.score_structure.segment_01.notehead_material_pattern import (
     notehead_material_list,
 )
-from magnolia.Materials.score_structure.Segment_I.pitch_material_pattern import (
+from magnolia.materials.score_structure.segment_01.pitch_material_pattern import (
     pitch_material_list,
 )
-from magnolia.Materials.score_structure.Segment_I.rhythm_material_pattern import (
+from magnolia.materials.score_structure.segment_01.rhythm_material_pattern import (
     rhythm_material_list,
 )
-from magnolia.Materials.score_structure.Segment_I.time_signatures import bounds
-from magnolia.Materials.timespans.Segment_I.make_timespans import (
+from magnolia.materials.score_structure.segment_01.time_signatures import bounds
+from magnolia.materials.timespans.segment_01.make_timespans import (
     articulation_timespan_list,
     dynamic_timespan_list,
     notehead_timespan_list,
@@ -31,11 +31,11 @@ from magnolia.Materials.timespans.Segment_I.make_timespans import (
 # #######
 rhythm_mat = rhythm_material_list
 
-segment_I_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
+segment_01_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
     materials=rhythm_mat,
     ts_list=rhythm_timespan_list,
     bounds=bounds,
-    segment_name="Segment_I_rhythm_timespans",
+    segment_name="segment_01_rhythm_timespans",
     current_directory=pathlib.Path(__file__).parent,
     add_silence=True,
     split=True,
@@ -46,11 +46,11 @@ segment_I_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
 # ######
 pitch_mat = pitch_material_list
 
-segment_I_pitch_timespans = evans.ConvertTimespans.convert_timespans(
+segment_01_pitch_timespans = evans.ConvertTimespans.convert_timespans(
     materials=pitch_mat,
     ts_list=pitch_timespan_list,
     bounds=bounds,
-    segment_name="Segment_I_pitch_timespans",
+    segment_name="segment_01_pitch_timespans",
     current_directory=pathlib.Path(__file__).parent,
     add_silence=False,
 )
@@ -60,11 +60,11 @@ segment_I_pitch_timespans = evans.ConvertTimespans.convert_timespans(
 # ######
 notehead_mat = notehead_material_list
 
-segment_I_notehead_timespans = evans.ConvertTimespans.convert_timespans(
+segment_01_notehead_timespans = evans.ConvertTimespans.convert_timespans(
     materials=notehead_mat,
     ts_list=notehead_timespan_list,
     bounds=bounds,
-    segment_name="Segment_I_notehead_timespans",
+    segment_name="segment_01_notehead_timespans",
     current_directory=pathlib.Path(__file__).parent,
     add_silence=False,
 )
@@ -74,11 +74,11 @@ segment_I_notehead_timespans = evans.ConvertTimespans.convert_timespans(
 # ########
 dynamic_mat = dynamic_material_list
 
-segment_I_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
+segment_01_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
     materials=dynamic_mat,
     ts_list=dynamic_timespan_list,
     bounds=bounds,
-    segment_name="Segment_I_dynamic_timespans",
+    segment_name="segment_01_dynamic_timespans",
     current_directory=pathlib.Path(__file__).parent,
     add_silence=False,
 )
@@ -88,11 +88,11 @@ segment_I_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
 # #############
 articulation_mat = articulation_material_list
 
-segment_I_articulation_timespans = evans.ConvertTimespans.convert_timespans(
+segment_01_articulation_timespans = evans.ConvertTimespans.convert_timespans(
     materials=articulation_mat,
     ts_list=articulation_timespan_list,
     bounds=bounds,
-    segment_name="Segment_I_articulation_timespans",
+    segment_name="segment_01_articulation_timespans",
     current_directory=pathlib.Path(__file__).parent,
     add_silence=False,
 )
@@ -100,9 +100,9 @@ segment_I_articulation_timespans = evans.ConvertTimespans.convert_timespans(
 # ##############
 # all timespans#
 # ##############
-segment_I_timespans = [
-    segment_I_pitch_timespans,
-    segment_I_notehead_timespans,
-    segment_I_dynamic_timespans,
-    segment_I_articulation_timespans,
+segment_01_timespans = [
+    segment_01_pitch_timespans,
+    segment_01_notehead_timespans,
+    segment_01_dynamic_timespans,
+    segment_01_articulation_timespans,
 ]

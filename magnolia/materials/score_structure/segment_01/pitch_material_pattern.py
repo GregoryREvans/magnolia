@@ -1,4 +1,4 @@
-from magnolia.Materials.pitch.Segment_I.pitch_handlers import (
+from magnolia.materials.pitch.segment_01.pitch_handlers import (
     saxophone_pitch_handler_one,
     saxophone_pitch_handler_two,
 )

@@ -4,7 +4,7 @@ import abjad
 from abjadext import rmakers as rmakers
 from tsmakers.TaleaTimespanMaker import TaleaTimespanMaker
 
-from magnolia.Materials.score_structure.instruments import instruments
+from magnolia.materials.score_structure.instruments import instruments
 
 music_specifiers = OrderedDict(
     [(f"Voice {i+1}", None) for i, name in enumerate(instruments)]

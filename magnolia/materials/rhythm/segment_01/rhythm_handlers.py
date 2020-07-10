@@ -2,7 +2,7 @@ import abjad
 import abjadext.rmakers
 import evans
 
-from magnolia.Materials.rhythm.Segment_I.rhythm_makers import (
+from magnolia.materials.rhythm.segment_01.rhythm_makers import (
     rmaker_one,
     rmaker_three,
     rmaker_two,

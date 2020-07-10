@@ -1,4 +1,4 @@
-from magnolia.Materials.rhythm.Segment_I.rhythm_handlers import (
+from magnolia.materials.rhythm.segment_01.rhythm_handlers import (
     rhythm_handler_one,
     rhythm_handler_three,
     rhythm_handler_two,

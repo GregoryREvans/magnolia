@@ -1,4 +1,4 @@
-from magnolia.Materials.noteheads.Segment_I.notehead_handlers import (
+from magnolia.materials.noteheads.segment_01.notehead_handlers import (
     notehead_handler_one,
 )
 

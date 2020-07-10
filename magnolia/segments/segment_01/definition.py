@@ -3,13 +3,13 @@ import pathlib
 import abjad
 import evans
 
-from magnolia.Materials.pitch.Segment_I.clef_handlers import clef_handlers
-from magnolia.Materials.score_structure.Segment_I.time_signatures import time_signatures
-from magnolia.Materials.score_structure.instruments import instruments as insts
-from magnolia.Materials.score_structure.score_structure import score
-from magnolia.Materials.timespans.Segment_I.convert_timespans import (
-    segment_I_rhythm_timespans,
-    segment_I_timespans,
+from magnolia.materials.pitch.segment_01.clef_handlers import clef_handlers
+from magnolia.materials.score_structure.segment_01.time_signatures import time_signatures
+from magnolia.materials.score_structure.instruments import instruments as insts
+from magnolia.materials.score_structure.score_structure import score
+from magnolia.materials.timespans.segment_01.convert_timespans import (
+    segment_01_rhythm_timespans,
+    segment_01_timespans,
 )
 
 c = abjad.LilyPondLiteral(
@@ -32,8 +32,8 @@ c = abjad.LilyPondLiteral(
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Alto Saxophone"],
-    rhythm_timespans=segment_I_rhythm_timespans,
-    handler_timespans=segment_I_timespans,
+    rhythm_timespans=segment_01_rhythm_timespans,
+    handler_timespans=segment_01_timespans,
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
@@ -43,7 +43,7 @@ maker = evans.SegmentMaker(
         "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
         "/Users/evansdsg2/Scores/magnolia/magnolia/build/first_stylesheet.ily",
     ],
-    segment_name="Segment_I",
+    segment_name="segment_01",
     current_directory=pathlib.Path(__file__).resolve().parent,
     cutaway=False,
     beam_pattern="meter",
