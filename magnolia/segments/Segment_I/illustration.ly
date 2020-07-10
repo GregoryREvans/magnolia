@@ -2,7 +2,7 @@
 \language "english"                                                            %! abjad.LilyPondFile._get_format_pieces()
 
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
-\include "/Users/evansdsg2/Scores/magnolia/magnolia/Build/first_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
+\include "/Users/evansdsg2/Scores/magnolia/magnolia/build/first_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
 
 \header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
     tagline = ##f
