@@ -2,8 +2,9 @@ import pathlib
 
 import abjad
 import evans
+import magnolia
 
-from magnolia.materials.pitch.segment_01.clef_handlers import clef_handlers
+# from magnolia.materials.pitch.segment_01.clef_handlers import clef_handlers
 from magnolia.materials.score_structure.segment_01.time_signatures import time_signatures
 from magnolia.materials.score_structure.instruments import instruments as insts
 from magnolia.materials.score_structure.score_structure import score
@@ -36,7 +37,7 @@ maker = evans.SegmentMaker(
     handler_timespans=segment_01_timespans,
     score_template=score,
     time_signatures=time_signatures,
-    clef_handlers=clef_handlers,
+    clef_handlers=magnolia.clef_handlers,
     tuplet_bracket_noteheads=True,
     add_final_grand_pause=True,
     score_includes=[
