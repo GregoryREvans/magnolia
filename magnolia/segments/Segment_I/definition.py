@@ -41,11 +41,10 @@ maker = evans.SegmentMaker(
     add_final_grand_pause=True,
     score_includes=[
         "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
-        "/Users/evansdsg2/Scores/magnolia/magnolia/Build/first_stylesheet.ily",
+        "/Users/evansdsg2/Scores/magnolia/magnolia/build/first_stylesheet.ily",
     ],
     segment_name="Segment_I",
-    current_directory=pathlib.Path(__file__).parent,
-    build_path=(pathlib.Path(__file__).parent / ".." / ".." / "Build").resolve(),
+    current_directory=pathlib.Path(__file__).resolve().parent,
     cutaway=False,
     beam_pattern="meter",
     beam_rests=False,
