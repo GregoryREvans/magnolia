@@ -2,8 +2,8 @@
 \language "english"
 #(set-default-paper-size "letterportrait")
 #(set-global-staff-size 13)
-%\include "/Users/evansdsg2/evans/evans/lilypond/evans-articulations.ily"
-\include "/Users/evansdsg2/evans/evans/lilypond/evans-spanners.ily"
+%\include "/Users/evansdsg2/evans/lilypond/evans-articulations.ily"
+\include "/Users/evansdsg2/evans/lilypond/evans-spanners.ily"
 %{ \include "ekmel.ily"
 \ekmelicStyle evans %}
 %(title sizes 5, 9.5, 4)
