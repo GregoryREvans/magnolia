@@ -2,12 +2,14 @@ import pathlib
 
 import abjad
 import evans
-import magnolia
 
-# from magnolia.materials.pitch.segment_01.clef_handlers import clef_handlers
-from magnolia.materials.score_structure.segment_01.time_signatures import time_signatures
+import magnolia
 from magnolia.materials.score_structure.instruments import instruments as insts
 from magnolia.materials.score_structure.score_structure import score
+# from magnolia.materials.pitch.segment_01.clef_handlers import clef_handlers
+from magnolia.materials.score_structure.segment_01.time_signatures import (
+    time_signatures,
+)
 from magnolia.materials.timespans.segment_01.convert_timespans import (
     segment_01_rhythm_timespans,
     segment_01_timespans,

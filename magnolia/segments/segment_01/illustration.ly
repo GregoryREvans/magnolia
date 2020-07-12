@@ -13,7 +13,7 @@
 \paper {}
 
 \score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
-    
+
     \context Score = "magnolia Score"
     <<
 
