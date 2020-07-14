@@ -44,27 +44,34 @@ segment_01_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
 # ######
 # pitch#
 # ######
-import abjad
-pitch_mat = evans.CyclicList(pitch_material_list, continuous=True)
-
-for span in pitch_timespan_list:
-    span._handler = pitch_mat(r=1)[0]
-print(abjad.storage(pitch_timespan_list))
-segment_01_pitch_timespans = pitch_timespan_list
-# pitch_mat = pitch_material_list
+# pitch_mat = evans.CyclicList(pitch_material_list, continuous=True)
 #
-# segment_01_pitch_timespans = evans.ConvertTimespans.convert_timespans(
-#     materials=pitch_mat,
-#     ts_list=pitch_timespan_list,
-#     bounds=bounds,
-#     segment_name="segment_01_pitch_timespans",
-#     current_directory=pathlib.Path(__file__).parent,
-#     add_silence=False,
-# )
+# for span in pitch_timespan_list:
+#     span._handler = pitch_mat(r=1)[0]
+#
+# segment_01_pitch_timespans = pitch_timespan_list
+
+pitch_mat = pitch_material_list
+
+segment_01_pitch_timespans = evans.ConvertTimespans.convert_timespans(
+    materials=pitch_mat,
+    ts_list=pitch_timespan_list,
+    bounds=bounds,
+    segment_name="segment_01_pitch_timespans",
+    current_directory=pathlib.Path(__file__).parent,
+    add_silence=False,
+)
 
 # ######
 # notehead#
 # ######
+# notehead_mat = evans.CyclicList(notehead_material_list, continuous=True)
+#
+# for span in notehead_timespan_list:
+#     span._handler = notehead_mat(r=1)[0]
+#
+# segment_01_notehead_timespans = notehead_timespan_list
+
 notehead_mat = notehead_material_list
 
 segment_01_notehead_timespans = evans.ConvertTimespans.convert_timespans(
@@ -109,7 +116,7 @@ segment_01_articulation_timespans = evans.ConvertTimespans.convert_timespans(
 # ##############
 segment_01_timespans = [
     segment_01_pitch_timespans,
-    # segment_01_notehead_timespans,
-    # segment_01_dynamic_timespans,
-    # segment_01_articulation_timespans,
+    segment_01_notehead_timespans,
+    segment_01_dynamic_timespans,
+    segment_01_articulation_timespans,
 ]

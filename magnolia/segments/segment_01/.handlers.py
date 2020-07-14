@@ -1,2 +1,2 @@
 import abjad
-handler_to_value = OrderedDict([('chord_1', OrderedDict([('count', 71)])), ('chord_2', OrderedDict([('count', 66)]))])
+handler_to_value = OrderedDict([('chord_1', OrderedDict([('count', 71)])), ('chord_2', OrderedDict([('count', 66)])), ('notehead handler one', OrderedDict([('count', 138), ('head_vector_count', 138), ('transition_vector_count', 138)])), ('dynamic_handler_one', OrderedDict([('count_1', 109), ('count_2', 31), ('count_3', 77), ('count_4', 77), ('count_5', 109)])), ('articulation_handler_one', OrderedDict([('count', 138), ('vector_count', 138)]))])
