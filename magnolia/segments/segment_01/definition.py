@@ -34,8 +34,25 @@ c = abjad.LilyPondLiteral(
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Alto Saxophone"],
-    rhythm_commands=rhythm_commands,
-    handler_commands=handler_commands,
+    commands=[
+        rhythm_commands,
+        evans.call(
+            "score",
+            evans.SegmentMaker.transform_brackets,
+            abjad.select().components(abjad.Score),
+        ),
+        evans.call(
+            "score",
+            evans.SegmentMaker.rewrite_meter,
+            abjad.select().components(abjad.Score),
+        ),
+        handler_commands,
+        evans.call(
+            "score",
+            evans.SegmentMaker.beam_score,
+            abjad.select().components(abjad.Score),
+        ),
+    ],
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=magnolia.clef_handlers,
