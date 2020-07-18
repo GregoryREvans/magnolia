@@ -46,6 +46,7 @@ maker = evans.SegmentMaker(
             evans.SegmentMaker.rewrite_meter,
             abjad.select().components(abjad.Score),
         ),
+        "skips",
         handler_commands,
         evans.call(
             "score",
