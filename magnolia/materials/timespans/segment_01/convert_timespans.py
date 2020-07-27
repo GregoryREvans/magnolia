@@ -1,17 +1,33 @@
 import abjad
 import evans
-import magnolia
+
+from ...score_structure.segment_01.time_signatures import bounds
+from ...score_structure.segment_01.rhythm_material_pattern import rhythm_material_list
+from .make_timespans import rhythm_timespan_list
+
+from ...score_structure.segment_01.pitch_material_pattern import pitch_material_list
+from .make_timespans import pitch_timespan_list
+
+from ...score_structure.segment_01.notehead_material_pattern import notehead_material_list
+from .make_timespans import notehead_timespan_list
+
+from ...score_structure.segment_01.dynamic_material_pattern import dynamic_material_list
+from .make_timespans import dynamic_timespan_list
+
+from ...score_structure.segment_01.articulation_material_pattern import articulation_material_list
+from .make_timespans import articulation_timespan_list
 
 # #######
 # rhythm#
 # #######
-rhythm_mat = evans.CyclicList(magnolia.rhythm_material_list, continuous=True)
 
-for span in magnolia.rhythm_timespan_list:
+rhythm_mat = evans.CyclicList(rhythm_material_list, continuous=True)
+
+for span in rhythm_timespan_list:
     span._handler = rhythm_mat(r=1)[0]
 
 segment_01_rhythm_timespans = evans.timespan.make_split_list(
-    magnolia.rhythm_timespan_list, magnolia.bounds
+    rhythm_timespan_list, bounds
 )
 
 rhythm_commands = []
@@ -26,12 +42,13 @@ for span in segment_01_rhythm_timespans:
 # ######
 # pitch#
 # ######
-pitch_mat = evans.CyclicList(magnolia.pitch_material_list, continuous=True)
 
-for span in magnolia.pitch_timespan_list:
+pitch_mat = evans.CyclicList(pitch_material_list, continuous=True)
+
+for span in pitch_timespan_list:
     span._handler = pitch_mat(r=1)[0]
 
-segment_01_pitch_timespans = magnolia.pitch_timespan_list
+segment_01_pitch_timespans = pitch_timespan_list
 
 pitch_commands = []
 for span in segment_01_pitch_timespans:
@@ -45,12 +62,12 @@ for span in segment_01_pitch_timespans:
 # ######
 # notehead#
 # ######
-notehead_mat = evans.CyclicList(magnolia.notehead_material_list, continuous=True)
+notehead_mat = evans.CyclicList(notehead_material_list, continuous=True)
 
-for span in magnolia.notehead_timespan_list:
+for span in notehead_timespan_list:
     span._handler = notehead_mat(r=1)[0]
 
-segment_01_notehead_timespans = magnolia.notehead_timespan_list
+segment_01_notehead_timespans = notehead_timespan_list
 
 notehead_commands = []
 for span in segment_01_notehead_timespans:
@@ -64,12 +81,12 @@ for span in segment_01_notehead_timespans:
 # ########
 # dynamic#
 # ########
-dynamic_mat = evans.CyclicList(magnolia.dynamic_material_list, continuous=True)
+dynamic_mat = evans.CyclicList(dynamic_material_list, continuous=True)
 
-for span in magnolia.dynamic_timespan_list:
+for span in dynamic_timespan_list:
     span._handler = dynamic_mat(r=1)[0]
 
-segment_01_dynamic_timespans = magnolia.dynamic_timespan_list
+segment_01_dynamic_timespans = dynamic_timespan_list
 
 dynamic_commands = []
 for span in segment_01_dynamic_timespans:
@@ -83,12 +100,14 @@ for span in segment_01_dynamic_timespans:
 # #############
 # articulation#
 # #############
-articulation_mat = evans.CyclicList(magnolia.articulation_material_list, continuous=True)
+articulation_mat = evans.CyclicList(
+    articulation_material_list, continuous=True
+)
 
-for span in magnolia.articulation_timespan_list:
+for span in articulation_timespan_list:
     span._handler = articulation_mat(r=1)[0]
 
-segment_01_articulation_timespans = magnolia.articulation_timespan_list
+segment_01_articulation_timespans = articulation_timespan_list
 
 articulation_commands = []
 for span in segment_01_articulation_timespans:

@@ -1,6 +1,6 @@
 import abjad
-from abjadext import rmakers
 import evans
+from abjadext import rmakers
 
 rmaker_one = evans.RTMMaker(
     rtm=[
@@ -42,8 +42,7 @@ rmaker_three = evans.RTMMaker(
 )
 
 silence_maker_ = rmakers.stack(
-    rmakers.NoteRhythmMaker(),
-    rmakers.force_rest(abjad.select().leaves(pitched=True)),
+    rmakers.NoteRhythmMaker(), rmakers.force_rest(abjad.select().leaves(pitched=True)),
 )
 
 silence_maker = evans.RhythmHandler(rmaker=silence_maker_, name="silence maker")

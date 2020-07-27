@@ -21,3 +21,5 @@ materials = [material_list_1]
 rhythm_material_list = []
 for x in materials:
     rhythm_material_list.extend(x)
+
+assert isinstance(rhythm_material_list, list)

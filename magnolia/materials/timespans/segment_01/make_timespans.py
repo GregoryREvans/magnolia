@@ -1,8 +1,9 @@
 from collections import OrderedDict
 
 import abjad
-from abjadext import rmakers
 import tsmakers
+from abjadext import rmakers
+
 import magnolia
 
 music_specifiers = OrderedDict(
@@ -16,8 +17,7 @@ rhythm_target_timespan = abjad.Timespan(0, 30)
 
 rhythm_timespan_maker = tsmakers.TaleaTimespanMaker(
     playing_talea=rmakers.Talea(
-        counts=([6, 2, 4, 4, 5, 2, 3, 3, 4, 5]),
-        denominator=4,
+        counts=([6, 2, 4, 4, 5, 2, 3, 3, 4, 5]), denominator=4,
     ),
     silence_talea=rmakers.Talea(counts=([0]), denominator=4),
 )

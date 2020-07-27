@@ -9,7 +9,9 @@ for interval in source_intervals:
 
 added_sequences = evans.derive_added_sequences(source, source_intervals, flat=True)
 
-multiplied_sequences = evans.derive_multiplied_sequences(added_sequences, source_intervals, flat=True)
+multiplied_sequences = evans.derive_multiplied_sequences(
+    added_sequences, source_intervals, flat=True
+)
 
 set_one = microtones.PitchSet(multiplied_sequences)
 segment_one = microtones.PitchClassSegment(set_one)
