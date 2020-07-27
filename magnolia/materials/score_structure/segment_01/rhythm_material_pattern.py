@@ -1,12 +1,5 @@
-from magnolia.materials.rhythm.segment_01.rhythm_handlers import (
-    rhythm_handler_one,
-    rhythm_handler_three,
-    rhythm_handler_two,
-    silence_maker,
-)
+import magnolia
 
-# np.random.seed(7)
-# key_list_1 = [x for x in material_chain.generate_states(current_state='rhythm_handler_two', no=14)]
 key_list_1 = [
     # "rhythm_handler_one",
     # "rhythm_handler_one",
@@ -16,10 +9,10 @@ key_list_1 = [
 ]
 
 dict = {
-    "rhythm_handler_one": rhythm_handler_one,
-    "rhythm_handler_two": rhythm_handler_two,
-    "rhythm_handler_three": rhythm_handler_three,
-    "silence_maker": silence_maker,
+    "rhythm_handler_one": magnolia.rhythm_handler_one,
+    "rhythm_handler_two": magnolia.rhythm_handler_two,
+    "rhythm_handler_three": magnolia.rhythm_handler_three,
+    "silence_maker": magnolia.silence_maker,
 }
 
 

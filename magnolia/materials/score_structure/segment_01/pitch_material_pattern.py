@@ -1,7 +1,4 @@
-from magnolia.materials.pitch.segment_01.pitch_handlers import (
-    saxophone_pitch_handler_one,
-    saxophone_pitch_handler_two,
-)
+import magnolia
 
 key_list_1 = [
     "saxophone_pitch_handler_one",
@@ -11,8 +8,8 @@ key_list_1 = [
 ]
 
 dict = {
-    "saxophone_pitch_handler_one": saxophone_pitch_handler_one,
-    "saxophone_pitch_handler_two": saxophone_pitch_handler_two,
+    "saxophone_pitch_handler_one": magnolia.saxophone_pitch_handler_one,
+    "saxophone_pitch_handler_two": magnolia.saxophone_pitch_handler_two,
 }
 
 

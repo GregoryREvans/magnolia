@@ -7,3 +7,11 @@ chord_2 = [2, 0, 1, 3, 4, 6, 5, 7, 8, 5, 9]
 chord_2 = evans.pitch_warp(
     pitch_list=chord_2, warp_values=[0.5, -0.5], boolean_vector=[0, 0, 1, 0, 1]
 )
+
+saxophone_pitch_handler_one = evans.PitchHandler(
+    pitch_list=chord_1, continuous=True, name="chord_1"
+)
+
+saxophone_pitch_handler_two = evans.PitchHandler(
+    pitch_list=chord_2, continuous=True, name="chord_2"
+)

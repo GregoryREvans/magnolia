@@ -4,15 +4,6 @@ import abjad
 import evans
 
 import magnolia
-from magnolia.materials.score_structure.instruments import instruments as insts
-from magnolia.materials.score_structure.score_structure import score
-from magnolia.materials.score_structure.segment_01.time_signatures import (
-    time_signatures,
-)
-from magnolia.materials.timespans.segment_01.convert_timespans import (
-    handler_commands,
-    rhythm_commands,
-)
 
 c = abjad.LilyPondLiteral(
     [
@@ -32,10 +23,10 @@ c = abjad.LilyPondLiteral(
 )
 
 maker = evans.SegmentMaker(
-    instruments=insts,
+    instruments=magnolia.instruments,
     names=["Alto Saxophone"],
     commands=[
-        rhythm_commands,
+        magnolia.rhythm_commands,
         evans.call(
             "score",
             evans.SegmentMaker.transform_brackets,
@@ -47,15 +38,15 @@ maker = evans.SegmentMaker(
             abjad.select().components(abjad.Score),
         ),
         "skips",
-        handler_commands,
+        magnolia.handler_commands,
         evans.call(
             "score",
             evans.SegmentMaker.beam_score,
             abjad.select().components(abjad.Score),
         ),
     ],
-    score_template=score,
-    time_signatures=time_signatures,
+    score_template=magnolia.score,
+    time_signatures=magnolia.time_signatures,
     clef_handlers=magnolia.clef_handlers,
     tuplet_bracket_noteheads=True,
     add_final_grand_pause=True,
