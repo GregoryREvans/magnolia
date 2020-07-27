@@ -1,6 +1,7 @@
 import pathlib
 
 import abjad
+
 from ...timespans.segment_01.make_timespans import rhythm_timespan_list
 
 offset_counter = abjad.OffsetCounter(rhythm_timespan_list)

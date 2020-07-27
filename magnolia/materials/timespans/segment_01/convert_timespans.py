@@ -1,21 +1,23 @@
 import abjad
 import evans
 
-from ...score_structure.segment_01.time_signatures import bounds
-from ...score_structure.segment_01.rhythm_material_pattern import rhythm_material_list
-from .make_timespans import rhythm_timespan_list
-
-from ...score_structure.segment_01.pitch_material_pattern import pitch_material_list
-from .make_timespans import pitch_timespan_list
-
-from ...score_structure.segment_01.notehead_material_pattern import notehead_material_list
-from .make_timespans import notehead_timespan_list
-
+from ...score_structure.segment_01.articulation_material_pattern import (
+    articulation_material_list,
+)
 from ...score_structure.segment_01.dynamic_material_pattern import dynamic_material_list
-from .make_timespans import dynamic_timespan_list
-
-from ...score_structure.segment_01.articulation_material_pattern import articulation_material_list
-from .make_timespans import articulation_timespan_list
+from ...score_structure.segment_01.notehead_material_pattern import (
+    notehead_material_list,
+)
+from ...score_structure.segment_01.pitch_material_pattern import pitch_material_list
+from ...score_structure.segment_01.rhythm_material_pattern import rhythm_material_list
+from ...score_structure.segment_01.time_signatures import bounds
+from .make_timespans import (
+    articulation_timespan_list,
+    dynamic_timespan_list,
+    notehead_timespan_list,
+    pitch_timespan_list,
+    rhythm_timespan_list,
+)
 
 # #######
 # rhythm#
@@ -100,9 +102,7 @@ for span in segment_01_dynamic_timespans:
 # #############
 # articulation#
 # #############
-articulation_mat = evans.CyclicList(
-    articulation_material_list, continuous=True
-)
+articulation_mat = evans.CyclicList(articulation_material_list, continuous=True)
 
 for span in articulation_timespan_list:
     span._handler = articulation_mat(r=1)[0]
