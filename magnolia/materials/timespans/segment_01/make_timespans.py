@@ -16,7 +16,7 @@ rhythm_target_timespan = abjad.Timespan(0, 30)
 
 rhythm_timespan_maker = tsmakers.TaleaTimespanMaker(
     playing_talea=rmakers.Talea(
-        counts=([9, 8, 8, 5, 9, 8, 5, 7, 9, 6, 5, 6, 9, 8, 6, 6, 6, 6, 5, 7]),
+        counts=([6, 2, 4, 4, 5, 2, 3, 3, 4, 5]),
         denominator=4,
     ),
     silence_talea=rmakers.Talea(counts=([0]), denominator=4),

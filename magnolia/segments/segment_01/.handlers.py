@@ -2,20 +2,20 @@ import abjad
 handler_to_value = abjad.OrderedDict(
     [
         (
-            'chord_1',
+            'saxophone_pitch_handler_one',
             abjad.OrderedDict(
                 [
-                    ('pitch_count', 71),
+                    ('pitch_count', 42),
                     ('chord_boolean_count', -1),
                     ('chord_groups_count', -1),
                     ]
                 ),
             ),
         (
-            'chord_2',
+            'saxophone_pitch_handler_two',
             abjad.OrderedDict(
                 [
-                    ('pitch_count', 66),
+                    ('pitch_count', 50),
                     ('chord_boolean_count', -1),
                     ('chord_groups_count', -1),
                     ]
@@ -25,9 +25,9 @@ handler_to_value = abjad.OrderedDict(
             'notehead handler one',
             abjad.OrderedDict(
                 [
-                    ('count', 138),
-                    ('head_vector_count', 138),
-                    ('transition_vector_count', 138),
+                    ('count', 93),
+                    ('head_vector_count', 93),
+                    ('transition_vector_count', 93),
                     ]
                 ),
             ),
@@ -35,11 +35,11 @@ handler_to_value = abjad.OrderedDict(
             'dynamic_handler_one',
             abjad.OrderedDict(
                 [
-                    ('count_1', 109),
-                    ('count_2', 31),
-                    ('count_3', 77),
-                    ('count_4', 77),
-                    ('count_5', 109),
+                    ('count_1', 100),
+                    ('count_2', 33),
+                    ('count_3', 66),
+                    ('count_4', 66),
+                    ('count_5', 100),
                     ]
                 ),
             ),
@@ -47,8 +47,8 @@ handler_to_value = abjad.OrderedDict(
             'articulation_handler_one',
             abjad.OrderedDict(
                 [
-                    ('count', 138),
-                    ('vector_count', 138),
+                    ('count', 93),
+                    ('vector_count', 93),
                     ]
                 ),
             ),

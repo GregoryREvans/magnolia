@@ -1,11 +1,10 @@
 import magnolia
 
 key_list_1 = [
-    # "rhythm_handler_one",
-    # "rhythm_handler_one",
-    # "rhythm_handler_two",
-    # "rhythm_handler_two",
-    "rhythm_handler_three"
+    "rhythm_handler_two",
+    "rhythm_handler_two",
+    "rhythm_handler_one",
+    "rhythm_handler_three",
 ]
 
 dict = {

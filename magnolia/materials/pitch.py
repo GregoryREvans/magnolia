@@ -1,17 +1,29 @@
 import evans
+from abjadext import microtones
 
-chord_1 = [13, 20, 10, 17, 7, 14, 4, 11, 5, 11, 8, 13, 11, 15, 14, 17]
+source_intervals = [3, 1, 2, 2]
+source = [2]
 
-chord_2 = [2, 0, 1, 3, 4, 6, 5, 7, 8, 5, 9]
+for interval in source_intervals:
+    source.append(source[-1] + interval)
 
-chord_2 = evans.pitch_warp(
-    pitch_list=chord_2, warp_values=[0.5, -0.5], boolean_vector=[0, 0, 1, 0, 1]
-)
+added_sequences = evans.derive_added_sequences(source, source_intervals, flat=True)
+
+multiplied_sequences = evans.derive_multiplied_sequences(added_sequences, source_intervals, flat=True)
+
+set_one = microtones.PitchSet(multiplied_sequences)
+segment_one = microtones.PitchClassSegment(set_one)
+segment_one = microtones.PitchSegment(segment_one).transpose(12)
+
+set_two = microtones.PitchClassSet(multiplied_sequences)
+segment_two = microtones.PitchSegment(set_two)
+segment_two += segment_two.invert(4).transpose(6)
+segment_two = segment_two.transpose(-10).retrograde() + segment_two
 
 saxophone_pitch_handler_one = evans.PitchHandler(
-    pitch_list=chord_1, continuous=True, name="chord_1"
+    pitch_list=segment_one, continuous=True, name="saxophone_pitch_handler_one"
 )
 
 saxophone_pitch_handler_two = evans.PitchHandler(
-    pitch_list=chord_2, continuous=True, name="chord_2"
+    pitch_list=segment_two, continuous=True, name="saxophone_pitch_handler_two"
 )
