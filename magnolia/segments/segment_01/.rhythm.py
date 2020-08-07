@@ -9,10 +9,26 @@ handler_to_value = abjad.OrderedDict(
                         'state',
                         abjad.OrderedDict(
                             [
-                                ('divisions_consumed', 16),
+                                ('divisions_consumed', 7),
                                 ('incomplete_last_note', True),
-                                ('logical_ties_produced', 33),
-                                ('talea_weight_consumed', 70),
+                                ('logical_ties_produced', 16),
+                                ('talea_weight_consumed', 36),
+                                ]
+                            ),
+                        ),
+                    ]
+                ),
+            ),
+        (
+            'rhythm_handler_four',
+            abjad.OrderedDict(
+                [
+                    (
+                        'state',
+                        abjad.OrderedDict(
+                            [
+                                ('divisions_consumed', 25),
+                                ('logical_ties_produced', 339),
                                 ]
                             ),
                         ),
@@ -23,7 +39,7 @@ handler_to_value = abjad.OrderedDict(
             'rhythm_handler_one',
             abjad.OrderedDict(
                 [
-                    ('state', 3),
+                    ('state', 0),
                     ]
                 ),
             ),
@@ -31,7 +47,7 @@ handler_to_value = abjad.OrderedDict(
             'rhythm_handler_three',
             abjad.OrderedDict(
                 [
-                    ('state', 6),
+                    ('state', 11),
                     ]
                 ),
             ),

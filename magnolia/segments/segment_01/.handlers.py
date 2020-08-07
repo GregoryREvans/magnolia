@@ -5,7 +5,7 @@ handler_to_value = abjad.OrderedDict(
             'saxophone_pitch_handler_one',
             abjad.OrderedDict(
                 [
-                    ('pitch_count', 42),
+                    ('pitch_count', 241),
                     ('chord_boolean_count', -1),
                     ('chord_groups_count', -1),
                     ]
@@ -15,19 +15,9 @@ handler_to_value = abjad.OrderedDict(
             'saxophone_pitch_handler_two',
             abjad.OrderedDict(
                 [
-                    ('pitch_count', 50),
+                    ('pitch_count', 224),
                     ('chord_boolean_count', -1),
                     ('chord_groups_count', -1),
-                    ]
-                ),
-            ),
-        (
-            'notehead handler one',
-            abjad.OrderedDict(
-                [
-                    ('count', 93),
-                    ('head_vector_count', 93),
-                    ('transition_vector_count', 93),
                     ]
                 ),
             ),
@@ -35,11 +25,11 @@ handler_to_value = abjad.OrderedDict(
             'dynamic_handler_one',
             abjad.OrderedDict(
                 [
-                    ('count_1', 100),
-                    ('count_2', 33),
-                    ('count_3', 66),
-                    ('count_4', 66),
-                    ('count_5', 100),
+                    ('count_1', 172),
+                    ('count_2', 78),
+                    ('count_3', 93),
+                    ('count_4', 93),
+                    ('count_5', 172),
                     ]
                 ),
             ),
@@ -47,8 +37,8 @@ handler_to_value = abjad.OrderedDict(
             'articulation_handler_one',
             abjad.OrderedDict(
                 [
-                    ('count', 93),
-                    ('vector_count', 93),
+                    ('count', 466),
+                    ('vector_count', 466),
                     ]
                 ),
             ),

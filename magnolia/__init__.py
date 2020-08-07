@@ -4,6 +4,7 @@ from .materials.rhythm import (
     rhythm_handler_one,
     rhythm_handler_three,
     rhythm_handler_two,
+    rhythm_handler_four,
     silence_maker,
 )
 from .materials.score_structure.instruments import instruments

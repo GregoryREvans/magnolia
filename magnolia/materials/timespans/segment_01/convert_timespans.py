@@ -123,7 +123,7 @@ for span in segment_01_articulation_timespans:
 # ##############
 handler_commands = [
     pitch_commands,
-    notehead_commands,
+    # notehead_commands,
     dynamic_commands,
     articulation_commands,
 ]

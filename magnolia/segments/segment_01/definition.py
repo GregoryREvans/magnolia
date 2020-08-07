@@ -22,6 +22,10 @@ c = abjad.LilyPondLiteral(
     format_slot="absolute_after",
 )
 
+mm_1 = abjad.MetronomeMark((1, 8), 108)
+
+mm_2 = abjad.MetronomeMark((1, 4), 108)
+
 maker = evans.SegmentMaker(
     instruments=magnolia.instruments,
     names=["Alto Saxophone"],
@@ -43,6 +47,16 @@ maker = evans.SegmentMaker(
             "score",
             evans.SegmentMaker.beam_score,
             abjad.select().components(abjad.Score),
+        ),
+        evans.attach(
+            "Global Context",
+            mm_1,
+            abjad.select().leaf(12),
+        ),
+        evans.attach(
+            "Global Context",
+            mm_2,
+            abjad.select().leaf(23),
         ),
     ],
     score_template=magnolia.score,

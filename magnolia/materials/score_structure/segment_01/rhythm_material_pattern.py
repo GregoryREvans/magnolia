@@ -2,7 +2,21 @@ import magnolia
 
 key_list_1 = [
     "rhythm_handler_two",
+    "rhythm_handler_four",
+    "rhythm_handler_one",
+    "rhythm_handler_three",
+    "rhythm_handler_four",
+    "rhythm_handler_four",
+    "rhythm_handler_one",
+    "rhythm_handler_three",
+    "rhythm_handler_four",
+    "rhythm_handler_four",
     "rhythm_handler_two",
+    "rhythm_handler_four",
+    "rhythm_handler_one",
+    "rhythm_handler_three",
+    "rhythm_handler_four",
+    "rhythm_handler_four",
     "rhythm_handler_one",
     "rhythm_handler_three",
 ]
@@ -11,6 +25,7 @@ dict = {
     "rhythm_handler_one": magnolia.rhythm_handler_one,
     "rhythm_handler_two": magnolia.rhythm_handler_two,
     "rhythm_handler_three": magnolia.rhythm_handler_three,
+    "rhythm_handler_four": magnolia.rhythm_handler_four,
     "silence_maker": magnolia.silence_maker,
 }
 
