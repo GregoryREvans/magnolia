@@ -40,20 +40,6 @@ pitch_timespan_list = pitch_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=pitch_target_timespan
 )
 
-# #######
-# notehead#
-# #######
-notehead_target_timespan = abjad.Timespan(0, 54)
-
-notehead_timespan_maker = tsmakers.TaleaTimespanMaker(
-    playing_talea=rmakers.Talea(counts=([54]), denominator=1),
-    silence_talea=rmakers.Talea(counts=([0]), denominator=4),
-)
-
-notehead_timespan_list = notehead_timespan_maker(
-    music_specifiers=music_specifiers, target_timespan=notehead_target_timespan
-)
-
 # ########
 # dynamic#
 # ########
@@ -66,6 +52,20 @@ dynamic_timespan_maker = tsmakers.TaleaTimespanMaker(
 
 dynamic_timespan_list = dynamic_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=dynamic_target_timespan
+)
+
+# ########
+# slur#
+# ########
+slur_target_timespan = abjad.Timespan(0, 54)
+
+slur_timespan_maker = tsmakers.TaleaTimespanMaker(
+    playing_talea=rmakers.Talea(counts=([3, 2, 1, 2, 2, 4, 3, 3, 1, 2]), denominator=4),
+    silence_talea=rmakers.Talea(counts=([0]), denominator=16),
+)
+
+slur_timespan_list = slur_timespan_maker(
+    music_specifiers=music_specifiers, target_timespan=slur_target_timespan
 )
 
 # #############

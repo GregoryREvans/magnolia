@@ -13,9 +13,8 @@ multiplied_sequences = evans.derive_multiplied_sequences(
     added_sequences, source_intervals, flat=True
 )
 
-set_one = microtones.PitchSet(multiplied_sequences)
-segment_one = microtones.PitchClassSegment(set_one)
-segment_one = microtones.PitchSegment(segment_one).transpose(12)
+set_one = microtones.PitchClassSet(multiplied_sequences)
+segment_one = microtones.PitchSegment(set_one).transpose(8)
 
 set_two = microtones.PitchClassSet(multiplied_sequences)
 segment_two = microtones.PitchSegment(set_two)

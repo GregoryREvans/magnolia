@@ -5,18 +5,16 @@ from ...score_structure.segment_01.articulation_material_pattern import (
     articulation_material_list,
 )
 from ...score_structure.segment_01.dynamic_material_pattern import dynamic_material_list
-from ...score_structure.segment_01.notehead_material_pattern import (
-    notehead_material_list,
-)
 from ...score_structure.segment_01.pitch_material_pattern import pitch_material_list
 from ...score_structure.segment_01.rhythm_material_pattern import rhythm_material_list
+from ...score_structure.segment_01.slur_material_pattern import slur_material_list
 from ...score_structure.segment_01.time_signatures import bounds
 from .make_timespans import (
     articulation_timespan_list,
     dynamic_timespan_list,
-    notehead_timespan_list,
     pitch_timespan_list,
     rhythm_timespan_list,
+    slur_timespan_list,
 )
 
 # #######
@@ -61,25 +59,6 @@ for span in segment_01_pitch_timespans:
     )
     pitch_commands.append(command)
 
-# ######
-# notehead#
-# ######
-notehead_mat = evans.CyclicList(notehead_material_list, continuous=True)
-
-for span in notehead_timespan_list:
-    span._handler = notehead_mat(r=1)[0]
-
-segment_01_notehead_timespans = notehead_timespan_list
-
-notehead_commands = []
-for span in segment_01_notehead_timespans:
-    command = evans.HandlerCommand(
-        voice_name=span.voice_name,
-        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
-        handler=span.handler,
-    )
-    notehead_commands.append(command)
-
 # ########
 # dynamic#
 # ########
@@ -98,6 +77,25 @@ for span in segment_01_dynamic_timespans:
         handler=span.handler,
     )
     dynamic_commands.append(command)
+
+# ########
+# slur#
+# ########
+slur_mat = evans.CyclicList(slur_material_list, continuous=True)
+
+for span in slur_timespan_list:
+    span._handler = slur_mat(r=1)[0]
+
+segment_01_slur_timespans = slur_timespan_list
+
+slur_commands = []
+for span in segment_01_slur_timespans:
+    command = evans.HandlerCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    slur_commands.append(command)
 
 # #############
 # articulation#
@@ -123,7 +121,7 @@ for span in segment_01_articulation_timespans:
 # ##############
 handler_commands = [
     pitch_commands,
-    # notehead_commands,
     dynamic_commands,
+    slur_commands,
     articulation_commands,
 ]

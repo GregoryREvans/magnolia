@@ -34,6 +34,14 @@ handler_to_value = abjad.OrderedDict(
                 ),
             ),
         (
+            'slur_handler_one',
+            abjad.OrderedDict(
+                [
+                    ('count', 76),
+                    ]
+                ),
+            ),
+        (
             'articulation_handler_one',
             abjad.OrderedDict(
                 [

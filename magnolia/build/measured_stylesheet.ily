@@ -10,10 +10,10 @@
 \header {
 	tagline = ##f
 	breakbefore = ##t
-	dedication = \markup \override #'(font-name . "STIXGeneral") \fontsize #3 \center-column {\line{"t o   D e n n i s   K w o k"} \with-color #white \line{"."} }
-	title = \markup \override #'(font-name . "STIXGeneral") \fontsize #14 \center-column {"Frost on Magnolia Petals"}
-	subtitle = \markup \override #'(font-name . "STIXGeneral") \fontsize #2 \center-column {\with-color #white \line{"."} \with-color #black \line{"f o r   a l t o   s a x o p h o n e   a l o n e"} }
-	composer = \markup \override #'(font-name . "STIXGeneral") \fontsize #3 {"Gregory Rowland Evans (*1995)"}
+	dedication = \markup \override #'(font-name . "STIXGeneral") \fontsize #1 \center-column {\line{"t o   D e n n i s   K w o k"} \fontsize #3 \with-color #white \line{"."} }
+	title = \markup \override #'(font-name . "STIXGeneral") \fontsize #12 \center-column {"Frost on Magnolia Petals"}
+	subtitle = \markup \override #'(font-name . "STIXGeneral") \fontsize #4 \center-column {\with-color #white \line{"."} \fontsize #-1 \with-color #black \line{"f o r   a l t o   s a x o p h o n e   a l o n e"} }
+	composer = \markup \override #'(font-name . "STIXGeneral") \fontsize #1 {"G r e g o r y  R o w l a n d  E v a n s (*1995)"}
 }
 
 \layout {
@@ -31,7 +31,7 @@
         \numericTimeSignature
         \consists Axis_group_engraver
 		\consists Bar_number_engraver
-        \consists Time_signature_engraver
+        %{ \consists Time_signature_engraver %}
 		\consists Mark_engraver
 		\consists Metronome_mark_engraver
 		\consists Text_engraver
@@ -74,6 +74,7 @@
     }
     \context {
         \Score
+		\numericTimeSignature
 		\remove Metronome_mark_engraver
         \remove Bar_number_engraver
 		\remove Mark_engraver
@@ -103,8 +104,8 @@
 		\override NoteColumn.ignore-collision = ##t %
         \override SpacingSpanner.strict-grace-spacing = ##t
 		%{ \override GraceSpacing.spacing-increment = #2.0 %}
-        \override SpacingSpanner.strict-note-spacing = ##t
-        \override SpacingSpanner.uniform-stretching = ##t
+        %{ \override SpacingSpanner.strict-note-spacing = ##t %}
+        %{ \override SpacingSpanner.uniform-stretching = ##t %}
         \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 23) (minimum-distance . 23) (padding . 0))
 		\override StemTremolo.beam-width = 1.5
         \override StemTremolo.flag-count = 4
@@ -124,7 +125,7 @@
 		\override TupletNumber.font-size = #1
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 		autoBeaming = ##f
-		proportionalNotationDuration = #(ly:make-moment 1 30)
+		proportionalNotationDuration = #(ly:make-moment 1 22)
         tupletFullLength = ##t
     }
 	\context {
@@ -133,7 +134,16 @@
     }
     \context {
         \Staff
-		\remove Time_signature_engraver
+		%
+		\override Clef.X-extent = #'(0 . 0)
+		\override TimeSignature.X-extent = #'(0.75 . 0.75)
+        \override TimeSignature.X-offset = #-0.75
+        %{ \override TimeSignature.Y-extent = #'(0 . 0) %}
+        %{ \override TimeSignature.break-align-symbol = ##f %}
+        \override TimeSignature.break-visibility = #end-of-line-invisible
+        \override TimeSignature.font-size = #1
+        %{ \override TimeSignature.self-alignment-X = #center %}
+		%{ \remove Time_signature_engraver %}
 		\numericTimeSignature
 		fontSize = #-1
     }
@@ -147,14 +157,14 @@
 }
 
 \paper {
-	system-system-spacing = #'((basic-distance . 21) (minimum-distance . 21) (padding . 6))
+	system-system-spacing = #'((basic-distance . 18) (minimum-distance . 18) (padding . 6))
 
 	indent = 20\mm
     short-indent = 15\mm
-    bottom-margin = 5\mm
-    left-margin = 10\mm
-    right-margin = 5\mm
-    top-margin = 15\mm
+    bottom-margin = 9\mm
+    left-margin = 9\mm
+    right-margin = 9\mm
+    top-margin = 9\mm
 
 	%{ top-margin = 1\cm
 	bottom-margin = 1\cm
@@ -164,26 +174,20 @@
 	%top-margin = .90\in
 	oddHeaderMarkup = \markup ""
 	evenHeaderMarkup = \markup ""
-	oddFooterMarkup = \markup
-        \fill-line {
-            \override #'(font-name . "STIXGeneral")
-                \bold \fontsize #3 "Frost on Magnolia Petals - GR Evans"
-            \concat {
-                \override #'(font-name . "STIXGeneral")
-                    \bold \fontsize #3
-                        %{ \on-the-fly #print-page-number-check-first %}
-                        \fromproperty #'page:page-number-string
-                }
-            }
-    evenFooterMarkup = \markup
-        \fill-line {
-            \concat {
-                \override #'(font-name . "STIXGeneral")
-                    \bold \fontsize #3
-                        %{ \on-the-fly #print-page-number-check-first %}
-                        \fromproperty #'page:page-number-string
-                }
-            \override #'(font-name . "STIXGeneral")
-                \bold \fontsize #3 "Frost on Magnolia Petals - GR Evans"
-            }
+	oddFooterMarkup = \markup \fill-line {
+	\override #'(font-name . "STIXGeneral")
+	\bold \fontsize #2
+    \concat {
+      "Frost on Magnolia Petals -"
+	  \fromproperty #'page:page-number-string "- GR Evans"
+     }
+  }
+  evenFooterMarkup = \markup \fill-line {
+	\override #'(font-name . "STIXGeneral")
+	\bold \fontsize #2
+	\concat { "Frost on Magnolia Petals -"
+	\fromproperty #'page:page-number-string
+	"- GR Evans"
+    }
+  }
 }
