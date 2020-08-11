@@ -42,7 +42,7 @@ articulation_handler_one = evans.ArticulationHandler(
         "tremolo",
         "tremolo",
     ],
-    continuous=True,
+    forget=False,
     name="articulation_handler_one",
 )
 

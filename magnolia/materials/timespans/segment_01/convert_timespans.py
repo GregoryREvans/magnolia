@@ -21,7 +21,7 @@ from .make_timespans import (
 # rhythm#
 # #######
 
-rhythm_mat = evans.CyclicList(rhythm_material_list, continuous=True)
+rhythm_mat = evans.CyclicList(rhythm_material_list, forget=False)
 
 for span in rhythm_timespan_list:
     span._handler = rhythm_mat(r=1)[0]
@@ -43,7 +43,7 @@ for span in segment_01_rhythm_timespans:
 # pitch#
 # ######
 
-pitch_mat = evans.CyclicList(pitch_material_list, continuous=True)
+pitch_mat = evans.CyclicList(pitch_material_list, forget=False)
 
 for span in pitch_timespan_list:
     span._handler = pitch_mat(r=1)[0]
@@ -62,7 +62,7 @@ for span in segment_01_pitch_timespans:
 # ########
 # dynamic#
 # ########
-dynamic_mat = evans.CyclicList(dynamic_material_list, continuous=True)
+dynamic_mat = evans.CyclicList(dynamic_material_list, forget=False)
 
 for span in dynamic_timespan_list:
     span._handler = dynamic_mat(r=1)[0]
@@ -81,7 +81,7 @@ for span in segment_01_dynamic_timespans:
 # ########
 # slur#
 # ########
-slur_mat = evans.CyclicList(slur_material_list, continuous=True)
+slur_mat = evans.CyclicList(slur_material_list, forget=False)
 
 for span in slur_timespan_list:
     span._handler = slur_mat(r=1)[0]
@@ -100,7 +100,7 @@ for span in segment_01_slur_timespans:
 # #############
 # articulation#
 # #############
-articulation_mat = evans.CyclicList(articulation_material_list, continuous=True)
+articulation_mat = evans.CyclicList(articulation_material_list, forget=False)
 
 for span in articulation_timespan_list:
     span._handler = articulation_mat(r=1)[0]

@@ -22,9 +22,9 @@ segment_two += segment_two.invert(4).transpose(6)
 segment_two = segment_two.transpose(-10).retrograde() + segment_two
 
 saxophone_pitch_handler_one = evans.PitchHandler(
-    pitch_list=segment_one, continuous=True, name="saxophone_pitch_handler_one"
+    pitch_list=segment_one, forget=False, name="saxophone_pitch_handler_one"
 )
 
 saxophone_pitch_handler_two = evans.PitchHandler(
-    pitch_list=segment_two, continuous=True, name="saxophone_pitch_handler_two"
+    pitch_list=segment_two, forget=False, name="saxophone_pitch_handler_two"
 )
