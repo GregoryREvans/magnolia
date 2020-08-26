@@ -82,7 +82,8 @@ rmaker_four = rmakers.stack(
 )
 
 silence_maker_ = rmakers.stack(
-    rmakers.NoteRhythmMaker(), rmakers.force_rest(abjad.select().leaves(pitched=True)),
+    rmakers.NoteRhythmMaker(),
+    rmakers.force_rest(abjad.select().leaves(pitched=True)),
 )
 
 silence_maker = evans.RhythmHandler(rmaker=silence_maker_, name="silence maker")
