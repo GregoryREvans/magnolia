@@ -223,7 +223,7 @@
                                 }                                              %! applying staff names and clefs
                             }                                                  %! applying staff names and clefs
                         \clef "treble"
-                        gs''8
+                        af''8
                         \pp
                         [
 
@@ -253,7 +253,7 @@
 
                     b''16
 
-                    as''16
+                    bf''16
 
                     \revert Staff.Stem.stemlet-length
                     cs'''16
@@ -274,7 +274,7 @@
                     % [Voice 1 measure 3]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ds'''8
+                    ef'''8
                     \ff
                     \>
                     (
@@ -289,7 +289,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ds'8
+                    ef'8
                     )
                     ]
                     \breathe
@@ -309,7 +309,7 @@
                     )
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    gs''8
+                    af''8
                     \pp
                     - \accent
                     \<
@@ -333,7 +333,7 @@
 
                         b''16
 
-                        as''16
+                        bf''16
 
                         cs'''16
 
@@ -349,7 +349,7 @@
                         \<
                         (
 
-                        gs'16
+                        af'16
 
                         g'16
 
@@ -357,7 +357,7 @@
 
                         cs''16
 
-                        as'16
+                        bf'16
 
                         cs'16
                         :32
@@ -365,7 +365,7 @@
                         a'16
                         :32
 
-                        ds'16
+                        ef'16
                         :32
 
                         fs'16
@@ -374,7 +374,7 @@
                         c'16
                         :32
 
-                        as'16
+                        bf'16
                         :32
 
                         g'16
@@ -389,7 +389,7 @@
                         \>
                         (
 
-                        gs'16
+                        af'16
 
                         b16
 
@@ -417,14 +417,14 @@
 
                         fs''16
 
-                        ds''16
+                        ef''16
 
                         d''16
 
                         f''16
 
                         \revert Staff.Stem.stemlet-length
-                        gs''16
+                        af''16
                         \p
                         )
                         ]
@@ -437,7 +437,7 @@
                     \times 3/4 {
                         % [Voice 1 measure 6]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        as'8
+                        bf'8
                         \pp
                         \<
                         (
@@ -462,12 +462,12 @@
                         \<
                         (
 
-                        ds'''4
+                        ef'''4
 
                         g''8
                         - \accent
 
-                        gs''2
+                        af''2
                         \mf
                         )
                         \breathe
@@ -488,7 +488,7 @@
 
                         b''16
 
-                        as''16
+                        bf''16
 
                         cs'''16
                         - \tenuto
@@ -504,14 +504,14 @@
                         \f
                         )
 
-                        ds'''16
+                        ef'''16
                         \mf
                         \>
                         (
 
                         g''16
 
-                        gs''16
+                        af''16
                         :32
 
                         f''16
@@ -523,7 +523,7 @@
                         b''16
                         :32
 
-                        as''16
+                        bf''16
                         :32
 
                         cs'''16
@@ -554,7 +554,7 @@
 
                         b'16
 
-                        gs''16
+                        af''16
 
                         b''16
 
@@ -564,11 +564,11 @@
 
                         fs''16
 
-                        ds''16
+                        ef''16
 
                         c''16
 
-                        as''16
+                        bf''16
 
                         e''16
 
@@ -586,7 +586,7 @@
                         \<
                         (
 
-                        ds'16
+                        ef'16
 
                         \revert Staff.Stem.stemlet-length
                         a'16
@@ -628,7 +628,7 @@
                     (
                     [
 
-                    gs'16
+                    af'16
 
                     g'16
                     - \tenuto
@@ -642,7 +642,7 @@
                     cs''16
                     [
 
-                    as'16
+                    bf'16
 
                     cs'16
 
@@ -655,7 +655,7 @@
                     % [Voice 1 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ds'8
+                    ef'8
                     \p
                     \<
                     (
@@ -694,7 +694,7 @@
                         % [Voice 1 measure 12]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        ds'''8.
+                        ef'''8.
                         :32
                         [
 
@@ -704,7 +704,7 @@
                         )
 
                         \revert Staff.Stem.stemlet-length
-                        gs''8.
+                        af''8.
                         :32
                         \mf
                         ]
@@ -733,7 +733,7 @@
 
                         b''16
 
-                        as''16
+                        bf''16
 
                         cs'''16
 
@@ -745,13 +745,13 @@
 
                         a''16
 
-                        ds'''16
+                        ef'''16
 
                         g''16
                         \p
                         )
 
-                        gs''16
+                        af''16
                         \mf
                         \<
                         (
@@ -763,7 +763,7 @@
                         b''16
                         - \tenuto
 
-                        as'16
+                        bf'16
 
                         g'16
 
@@ -772,7 +772,7 @@
                         f'16
                         - \accent
 
-                        gs'16
+                        af'16
 
                         b16
 
@@ -795,7 +795,7 @@
                         - \tenuto
                         [
 
-                        ds''8
+                        ef''8
                         - \accent
 
                         d''8
@@ -808,7 +808,7 @@
                         (
 
                         \revert Staff.Stem.stemlet-length
-                        gs''8
+                        af''8
                         ]
 
                     }
@@ -819,7 +819,7 @@
                         % [Voice 1 measure 14]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        as'8
+                        bf'8
                         [
 
                         \revert Staff.Stem.stemlet-length
@@ -829,7 +829,7 @@
                         cs''4.
                         :32
 
-                        as''8
+                        bf''8
                         :32
                         \mf
                         )
@@ -874,7 +874,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
-                        gs''4
+                        af''4
                         \mf
 
                         r2
@@ -906,11 +906,11 @@
 
                         a''8
 
-                        ds'''8
+                        ef'''8
 
                         g''8
 
-                        gs''8
+                        af''8
                         \p
                         )
 
@@ -929,7 +929,7 @@
                         (
 
                         \revert Staff.Stem.stemlet-length
-                        as''8
+                        bf''8
                         ]
 
                     }
@@ -963,7 +963,7 @@
                         \>
                         (
 
-                        ds'''4.
+                        ef'''4.
                         - \accent
 
                     }
@@ -977,7 +977,7 @@
                         fs''8
                         [
 
-                        ds''8
+                        ef''8
                         \p
                         )
 
@@ -987,7 +987,7 @@
                         (
 
                         \revert Staff.Stem.stemlet-length
-                        as''8
+                        bf''8
                         ]
 
                     }
@@ -1017,7 +1017,7 @@
                         \<
                         (
 
-                        gs''8
+                        af''8
 
                         f''8
 
@@ -1033,7 +1033,7 @@
                     % [Voice 1 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    as''8
+                    bf''8
                     :32
                     [
 
@@ -1045,7 +1045,7 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ds'8
+                    ef'8
                     :32
                     \ff
                     \>
@@ -1085,7 +1085,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
 
-                        gs'8
+                        af'8
                         \pp
                         \<
                         (
@@ -1130,7 +1130,7 @@
                     % [Voice 1 measure 22]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ds'''8
+                    ef'''8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -1140,7 +1140,7 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    gs''8
+                    af''8
                     \p
                     \>
                     (
@@ -1167,7 +1167,7 @@
                         % [Voice 1 measure 23]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        as''8
+                        bf''8
                         \mp
                         \>
                         (
@@ -1185,7 +1185,7 @@
                         a''8
 
                         \revert Staff.Stem.stemlet-length
-                        ds'''8
+                        ef'''8
                         \p
                         )
                         ]
@@ -1197,7 +1197,7 @@
 
                         r4
 
-                        as'4
+                        bf'4
                         \mf
                         - \tenuto
 
@@ -1222,7 +1222,7 @@
                         (
                         [
 
-                        ds'16
+                        ef'16
 
                         fs'16
 
@@ -1230,7 +1230,7 @@
 
                         g''16
 
-                        gs''16
+                        af''16
                         :32
 
                         f''16
@@ -1242,7 +1242,7 @@
                         b''16
                         :32
 
-                        as''16
+                        bf''16
                         :32
 
                         cs'''16
@@ -1264,7 +1264,7 @@
                         \pp
                         )
 
-                        as'16
+                        bf'16
                         \mp
                         \>
                         (
@@ -1284,7 +1284,7 @@
 
                         f'4
 
-                        gs'4
+                        af'4
                         \p
                         )
                         \breathe
@@ -1305,7 +1305,7 @@
                     % [Voice 1 measure 26]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ds'''8
+                    ef'''8
                     \mf
                     \>
                     (
@@ -1318,7 +1318,7 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    gs''8
+                    af''8
                     \pp
                     \<
                     (
@@ -1339,7 +1339,7 @@
 
                         b''16
 
-                        as''16
+                        bf''16
 
                         cs'''16
                         - \accent
@@ -1357,12 +1357,12 @@
 
                         a''16
 
-                        ds'''16
+                        ef'''16
 
                         g''16
                         - \tenuto
 
-                        gs''16
+                        af''16
                         - \accent
 
                         f''16
@@ -1373,7 +1373,7 @@
                         \mf
                         )
 
-                        as''16
+                        bf''16
                         \ff
                         \>
                         (
@@ -1399,7 +1399,7 @@
                     a''16
                     :32
 
-                    ds'''16
+                    ef'''16
                     :32
 
                     \revert Staff.Stem.stemlet-length
@@ -1408,7 +1408,7 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    gs''16
+                    af''16
                     :32
                     [
 
@@ -1421,7 +1421,7 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    as''16
+                    bf''16
                     [
 
                     cs'''16
@@ -1443,7 +1443,7 @@
 
                     fs''16
 
-                    ds''16
+                    ef''16
 
                     \revert Staff.Stem.stemlet-length
                     d''16
@@ -1458,10 +1458,10 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        gs''8
+                        af''8
                         ]
 
-                        as'4.
+                        bf'4.
                         \p
                         )
                         \breathe
@@ -1492,7 +1492,7 @@
 
                         a''16
 
-                        ds'''8
+                        ef'''8
                         \mf
                         - \accent
                         )
@@ -1523,7 +1523,7 @@
                         (
                         [
 
-                        gs''16
+                        af''16
 
                         b''16
 
@@ -1540,11 +1540,11 @@
                         \<
                         (
 
-                        ds''16
+                        ef''16
 
                         c''16
 
-                        as''16
+                        bf''16
 
                         e''16
 
@@ -1561,7 +1561,7 @@
                         :32
 
                         \revert Staff.Stem.stemlet-length
-                        ds'16
+                        ef'16
                         :32
                         \mp
                         )
@@ -1585,7 +1585,7 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    gs''8
+                    af''8
                     \ff
                     \>
                     (
@@ -1609,7 +1609,7 @@
                     \times 5/7 {
                         % [Voice 1 measure 32]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        as''4.
+                        bf''4.
                         \p
                         )
 
@@ -1640,7 +1640,7 @@
 
                         a''16
 
-                        ds'''16
+                        ef'''16
 
                         g''16
 
@@ -1651,7 +1651,7 @@
                         f'16
                         - \tenuto
 
-                        gs'16
+                        af'16
 
                         g'16
 
@@ -1660,7 +1660,7 @@
                         cs''16
                         - \accent
 
-                        as'16
+                        bf'16
                         \mf
                         )
 
@@ -1671,14 +1671,14 @@
 
                         a'16
 
-                        ds'16
+                        ef'16
 
                         fs'16
 
                         c'16
                         - \tenuto
 
-                        as'16
+                        bf'16
                         - \accent
 
                         g'16
@@ -1687,7 +1687,7 @@
 
                         f'16
 
-                        gs'16
+                        af'16
 
                         \revert Staff.Stem.stemlet-length
                         b16
@@ -1702,7 +1702,7 @@
                         % [Voice 1 measure 34]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        gs''16
+                        af''16
                         :32
                         \mf
                         \>
@@ -1718,7 +1718,7 @@
                         b''16
                         :32
 
-                        as''16
+                        bf''16
                         :32
                         \p
                         )
@@ -1744,7 +1744,7 @@
                     % [Voice 1 measure 35]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ds'''8
+                    ef'''8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -1792,7 +1792,7 @@
                         \f
                         )
 
-                        ds''4
+                        ef''4
                         \mf
                         \>
                         (
@@ -1809,7 +1809,7 @@
                     \times 20/18 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        gs''16
+                        af''16
                         \pp
                         \<
                         (
@@ -1824,7 +1824,7 @@
                         - \tenuto
                         )
 
-                        as''16
+                        bf''16
                         \p
                         \<
                         (
@@ -1840,7 +1840,7 @@
 
                         a''16
 
-                        ds'''16
+                        ef'''16
                         \mf
                         )
 
@@ -1849,7 +1849,7 @@
                         \>
                         (
 
-                        gs''16
+                        af''16
 
                         f''16
                         - \tenuto
@@ -1859,7 +1859,7 @@
 
                         b''16
 
-                        as''16
+                        bf''16
 
                         \revert Staff.Stem.stemlet-length
                         cs'''16
@@ -1883,14 +1883,14 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ds'''16
+                    ef'''16
                     :32
                     [
 
                     g''16
                     :32
 
-                    gs''16
+                    af''16
                     :32
 
                     \revert Staff.Stem.stemlet-length
@@ -1918,9 +1918,9 @@
                         (
                         [
 
-                        gs''16
+                        af''16
 
-                        as'16
+                        bf'16
 
                         e''16
 
@@ -1930,7 +1930,7 @@
 
                         b'16
 
-                        gs''16
+                        af''16
 
                         b''16
 
@@ -1940,12 +1940,12 @@
 
                         fs''16
 
-                        ds''16
+                        ef''16
 
                         c''16
 
                         \revert Staff.Stem.stemlet-length
-                        as''16
+                        bf''16
                         \pp
                         - \tenuto
                         )
@@ -1971,12 +1971,12 @@
                     \<
                     (
 
-                    as''4
+                    bf''4
                     - \accent
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    as''8
+                    bf''8
                     \ff
                     )
                     [
@@ -1998,7 +1998,7 @@
                     b'4
                     \p
 
-                    ds'4
+                    ef'4
                     \pp
                     \breathe
 
@@ -2024,7 +2024,7 @@
 
                         f'16
 
-                        gs'16
+                        af'16
 
                         g'16
 
@@ -2051,12 +2051,12 @@
                         a''16
                         :32
 
-                        ds'''16
+                        ef'''16
                         :32
 
                         g''16
 
-                        gs''16
+                        af''16
 
                         f''16
                         \ff
@@ -2069,7 +2069,7 @@
 
                         b''16
 
-                        as''16
+                        bf''16
 
                         cs'''16
 
@@ -2090,12 +2090,12 @@
                         % [Voice 1 measure 42]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        ds'''16
+                        ef'''16
                         [
 
                         g''16
 
-                        gs''16
+                        af''16
 
                         f''16
                         - \tenuto
@@ -2104,7 +2104,7 @@
 
                         b''16
 
-                        as''16
+                        bf''16
 
                         cs'''16
                         - \accent
@@ -2131,11 +2131,11 @@
                     a''8
                     ]
 
-                    ds'''4
+                    ef'''4
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ds'''8
+                    ef'''8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -2145,7 +2145,7 @@
                     )
                     ]
 
-                    as'4
+                    bf'4
                     \mp
                     - \accent
                     \>
@@ -2158,7 +2158,7 @@
                     \p
                     )
 
-                    ds'4
+                    ef'4
                     \mf
 
                     fs'4
@@ -2170,7 +2170,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
 
-                        gs''4
+                        af''4
                         \f
                         )
 
@@ -2193,7 +2193,7 @@
                         % [Voice 1 measure 45]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        as'16
+                        bf'16
                         :32
                         [
 
@@ -2206,7 +2206,7 @@
                         f'16
                         :32
 
-                        gs'16
+                        af'16
                         :32
                         \pp
                         )
@@ -2234,7 +2234,7 @@
                         % [Voice 1 measure 46]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        ds''16.
+                        ef''16.
                         \mf
                         \<
                         (
@@ -2244,9 +2244,9 @@
 
                         f''16.
 
-                        gs''16.
+                        af''16.
 
-                        as'8.
+                        bf'8.
                         \ff
                         )
 

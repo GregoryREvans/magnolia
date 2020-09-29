@@ -27,6 +27,8 @@ invisible_command = abjad.LilyPondLiteral(
 )
 
 measure_0_tuplet = abjad.Staff([abjad.Tuplet((6, 5), "b'8 af'8 g'8 f'8 ef'8")])
+for note in abjad.select(measure_0_tuplet).leaves():
+    note.written_pitch = abjad.NumberedPitch(note.written_pitch) + 9
 abjad.beam(measure_0_tuplet[:])
 abjad.attach(abjad.Dynamic("pp"), abjad.select(measure_0_tuplet).leaf(0))
 evans.SegmentMaker.transform_brackets(measure_0_tuplet)

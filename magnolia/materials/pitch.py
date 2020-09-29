@@ -15,11 +15,13 @@ multiplied_sequences = evans.derive_multiplied_sequences(
 
 set_one = microtones.PitchClassSet(multiplied_sequences)
 segment_one = microtones.PitchSegment(set_one).transpose(8)
+segment_one = segment_one.transpose(9)
 
 set_two = microtones.PitchClassSet(multiplied_sequences)
 segment_two = microtones.PitchSegment(set_two)
 segment_two += segment_two.invert(4).transpose(6)
 segment_two = segment_two.transpose(-10).retrograde() + segment_two
+segment_two = segment_two.transpose(9)
 
 saxophone_pitch_handler_one = evans.PitchHandler(
     pitch_list=segment_one, forget=False, name="saxophone_pitch_handler_one"
