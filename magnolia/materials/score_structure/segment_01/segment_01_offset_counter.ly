@@ -9,6 +9,8 @@
 
 \paper {}
 
+\score {}
+
 \overlay {
 \postscript #"
 0.2 setlinewidth
