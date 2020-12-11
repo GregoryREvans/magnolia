@@ -1,17 +1,7 @@
 \version "2.19.84"  %! abjad.LilyPondFile._get_format_pieces()
 \language "english" %! abjad.LilyPondFile._get_format_pieces()
 
-\header { %! abjad.LilyPondFile._get_formatted_blocks()
-    tagline = ##f
-} %! abjad.LilyPondFile._get_formatted_blocks()
-
-\layout {}
-
-\paper {}
-
-\score {}
-
-\overlay {
+\markup { \overlay {
 \postscript #"
 0.2 setlinewidth
 [ 2 1 ] 0 setdash
@@ -305,4 +295,4 @@ stroke"
 \sans \fontsize #-3 \center-align \fraction 213 4
 \translate #'(105.99999999999999 . 1)
 \sans \fontsize #-3 \center-align \fraction 54 1
-}
+} }
