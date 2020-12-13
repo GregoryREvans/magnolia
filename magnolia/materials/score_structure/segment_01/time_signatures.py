@@ -7,7 +7,7 @@ from ...timespans.segment_01.make_timespans import rhythm_timespan_list
 offset_counter = abjad.OffsetCounter(rhythm_timespan_list)
 
 counter_path = f"""{pathlib.Path(__file__).parent}/segment_01_offset_counter.pdf"""
-persisted_counter = abjad.persist.as_pdf(offset_counter, counter_path, scale=0.70)
+# persisted_counter = abjad.persist.as_pdf(offset_counter, counter_path, scale=0.70)
 
 permitted_meters = abjad.MeterList(
     [
