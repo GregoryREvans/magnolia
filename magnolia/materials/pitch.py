@@ -7,10 +7,12 @@ source = [2]
 for interval in source_intervals:
     source.append(source[-1] + interval)
 
-added_sequences = evans.derive_added_sequences(source, source_intervals, flat=True)
+added_sequences = evans.Sequence(source).derive_added_sequences(
+    source_intervals, flat=True
+)
 
-multiplied_sequences = evans.derive_multiplied_sequences(
-    added_sequences, source_intervals, flat=True
+multiplied_sequences = evans.Sequence(added_sequences).derive_multiplied_sequences(
+    source_intervals, flat=True
 )
 
 set_one = microtones.PitchClassSet(multiplied_sequences)
