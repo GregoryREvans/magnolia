@@ -1084,21 +1084,21 @@
                         ]
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
-                        \times 5/4 {
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 8 5) "4")
+                        \times 5/8 {
 
-                            af'8
+                            af'4
                             \pp
                             \<
                             (
 
-                            g'4
+                            g'2
 
-                            e'4
+                            e'2
                             \mp
                             )
 
-                            cs''4.
+                            cs''2.
                             \p
                             \breathe
 
@@ -1452,29 +1452,25 @@
                         ]
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
-                        \times 5/4 {
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 8 5) "4")
+                        \times 5/8 {
 
-                            \override Staff.Stem.stemlet-length = 0.75
-                            f''8
-                            [
+                            f''4
 
-                            \revert Staff.Stem.stemlet-length
-                            af''8
-                            ]
+                            af''4
 
-                            bf'4.
+                            bf'2.
                             \p
                             )
                             \breathe
 
-                            e''8
+                            e''4
                             \pp
                             - \tenuto
                             \<
                             (
 
-                            cs''4
+                            cs''2
                             \mp
                             )
 
@@ -2169,20 +2165,20 @@
                         (
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
-                        \times 5/4 {
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 8 5) "4")
+                        \times 5/8 {
 
-                            af''4
+                            af''2
                             \f
                             )
 
-                            r4
+                            r2
 
-                            f''4.
+                            f''2.
                             :32
                             \mf
 
-                            c'8
+                            c'4
                             :32
                             \p
                             \>
