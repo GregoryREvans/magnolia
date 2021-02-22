@@ -31,7 +31,6 @@ for note in abjad.select(measure_0_tuplet).leaves():
     note.written_pitch = abjad.NumberedPitch(note.written_pitch) + 9
 abjad.beam(measure_0_tuplet[:])
 abjad.attach(abjad.Dynamic("pp"), abjad.select(measure_0_tuplet).leaf(0))
-evans.SegmentMaker.transform_brackets(measure_0_tuplet)
 
 mm_1 = abjad.MetronomeMark((1, 8), 108)
 

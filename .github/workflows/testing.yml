@@ -3,10 +3,10 @@ name: testing
 on:
   pull_request:
     branches:
-    - main
+    - master
   push:
     branches:
-    - main
+    - master
   schedule:
     - cron: "0 0 * * *"
 
@@ -52,7 +52,7 @@ jobs:
 
     - name: Install abjad
       run: |
-        git clone -b trevor/dev https://github.com/Abjad/abjad.git $ABJAD
+        git clone https://github.com/Abjad/abjad.git $ABJAD
         pip install -e $ABJAD
         echo "$ABJAD/scr" >> $GITHUB_PATH
 
@@ -107,7 +107,7 @@ jobs:
         black-check .
         flake8-check .
         isort-check .
-        mypy .
+        mypy-check .
 
     - name: Test segments
       run: |
