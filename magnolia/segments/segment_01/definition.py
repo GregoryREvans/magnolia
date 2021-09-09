@@ -38,8 +38,7 @@ mm_2 = abjad.MetronomeMark((1, 4), 108)
 
 maker = evans.SegmentMaker(
     instruments=magnolia.instruments,
-    names=[abjad.Markup.center_column(["Alto", "Saxophone"])],
-    # names=['"Alto Saxophone"'],
+    names=[abjad.Markup(r"\center-column { Alto Saxophone }", literal=True)],
     commands=[
         magnolia.rhythm_commands,
         evans.call(

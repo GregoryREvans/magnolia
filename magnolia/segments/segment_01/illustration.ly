@@ -4,14 +4,6 @@
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
 \include "/Users/evansdsg2/Scores/magnolia/magnolia/build/measured_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
 
-\header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
-    tagline = ##f
-}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
-
-\layout {}
-
-\paper {}
-
 \score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
 
     \context Score = "magnolia Score"
@@ -227,18 +219,11 @@
                     {
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "8")
                         \times 6/5 {
                             % [Voice 1 measure 1]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \set Staff.instrumentName =                        %! applying staff names and clefs
-                            \markup {                                          %! applying staff names and clefs
-                                \center-column                                 %! applying staff names and clefs
-                                    {                                          %! applying staff names and clefs
-                                        Alto                                   %! applying staff names and clefs
-                                        Saxophone                              %! applying staff names and clefs
-                                    }                                          %! applying staff names and clefs
-                                }                                              %! applying staff names and clefs
+                            \markup { \hcenter-in #14 \center-column { Alto Saxophone } } %! applying staff names and clefs
                             \clef "treble"
                             af''8
                             \pp
@@ -2288,10 +2273,7 @@
 
                         \once \override MultiMeasureRest.color = #white        %! applying ending skips
                         R1 * 1/16
-                        ^ \markup {                                            %! applying ending skips
-                            \musicglyph                                        %! applying ending skips
-                                #"scripts.ushortfermata"                       %! applying ending skips
-                            }                                                  %! applying ending skips
+                        ^ \markup \center-align \musicglyph #"scripts.ushortfermata" %! applying ending skips
                         \bar "|."
                         \stopStaff                                             %! applying ending skips
 
