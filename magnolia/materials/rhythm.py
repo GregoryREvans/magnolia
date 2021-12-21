@@ -17,10 +17,10 @@ rmaker_two = rmakers.stack(
         4,
         extra_counts=[0, 3, -1, 2, -2, 0, 3, 1, 2, 2, 0, -3, 1, -2, 2],
     ),
-    rmakers.trivialize(abjad.select().tuplets()),
-    rmakers.extract_trivial(abjad.select().tuplets()),
-    rmakers.rewrite_rest_filled(abjad.select().tuplets()),
-    rmakers.rewrite_sustained(abjad.select().tuplets()),
+    rmakers.trivialize(lambda _: abjad.Selection(_).tuplets()),
+    rmakers.extract_trivial(lambda _: abjad.Selection(_).tuplets()),
+    rmakers.rewrite_rest_filled(lambda _: abjad.Selection(_).tuplets()),
+    rmakers.rewrite_sustained(lambda _: abjad.Selection(_).tuplets()),
 )
 
 rmaker_three = evans.RTMMaker(
@@ -75,15 +75,15 @@ rmaker_four = rmakers.stack(
         ],
         extra_counts=[0, 3, -1, 2, -2, 0, 3, 1, 2, 2, 0, -3, 1, -2, 2],
     ),
-    rmakers.trivialize(abjad.select().tuplets()),
-    rmakers.extract_trivial(abjad.select().tuplets()),
-    rmakers.rewrite_rest_filled(abjad.select().tuplets()),
-    rmakers.rewrite_sustained(abjad.select().tuplets()),
+    rmakers.trivialize(lambda _: abjad.Selection(_).tuplets()),
+    rmakers.extract_trivial(lambda _: abjad.Selection(_).tuplets()),
+    rmakers.rewrite_rest_filled(lambda _: abjad.Selection(_).tuplets()),
+    rmakers.rewrite_sustained(lambda _: abjad.Selection(_).tuplets()),
 )
 
 silence_maker_ = rmakers.stack(
     rmakers.NoteRhythmMaker(),
-    rmakers.force_rest(abjad.select().leaves(pitched=True)),
+    rmakers.force_rest(lambda _: abjad.Selection(_).leaves(pitched=True)),
 )
 
 silence_maker = evans.RhythmHandler(rmaker=silence_maker_, name="silence maker")
